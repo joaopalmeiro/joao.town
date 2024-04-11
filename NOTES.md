@@ -45,6 +45,8 @@
 - https://github.com/withastro/astro/blob/main/packages/astro/tsconfigs/strictest.json
 - https://docs.astro.build/en/guides/integrations-guide/sitemap/
 - https://biomejs.dev/internals/language-support/
+- https://eslint.org/docs/latest/use/configure/configuration-files#configuration-file: `eslint.config.mjs`
+- https://ota-meshi.github.io/eslint-plugin-astro/rules/
 
 ## Commands
 
@@ -62,6 +64,11 @@ npm install \
 astro \
 typescript \
 && npm install -D \
+@eslint/config-inspector \
+@types/eslint \
+@typescript-eslint/parser \
+eslint \
+eslint-plugin-astro \
 npm-run-all2 \
 prettier \
 prettier-plugin-astro \
