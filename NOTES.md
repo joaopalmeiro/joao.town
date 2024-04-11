@@ -2,6 +2,8 @@
 
 - https://github.com/withastro/astro/tree/main/examples/minimal
 - https://ota-meshi.github.io/eslint-plugin-astro/user-guide/
+  - https://ota-meshi.github.io/eslint-plugin-astro/rules/
+  - https://github.com/ota-meshi/eslint-plugin-astro/blob/v0.34.0/src/configs/flat/recommended.ts
 - https://docs.astro.build/en/editor-setup/#prettier
   - https://github.com/withastro/prettier-plugin-astro
   - https://prettier.io/docs/en/cli.html
@@ -46,7 +48,7 @@
 - https://docs.astro.build/en/guides/integrations-guide/sitemap/
 - https://biomejs.dev/internals/language-support/
 - https://eslint.org/docs/latest/use/configure/configuration-files#configuration-file: `eslint.config.mjs`
-- https://ota-meshi.github.io/eslint-plugin-astro/rules/
+- https://github.com/es-tooling/eslint-plugin-depend/blob/main/src/replacements.ts
 
 ## Commands
 
