@@ -1,0 +1,39 @@
+{
+  "name": "joao.town",
+  "version": "0.0.0",
+  "private": true,
+  "description": "My personal website.",
+  "license": "MIT",
+  "author": {
+    "name": "João Palmeiro",
+    "email": "joaopalmeiro@proton.me",
+    "url": "https://github.com/joaopalmeiro"
+  },
+  "type": "module",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro check && astro build",
+    "dev": "astro dev",
+    "format": "run-s format:pkgJson format:code",
+    "format:code": "prettier . --write",
+    "format:pkgJson": "sort-package-json",
+    "lint": "run-s lint:pkgJson lint:code",
+    "lint:code": "prettier . --check",
+    "lint:pkgJson": "sort-package-json --check",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.5.10",
+    "astro": "4.6.0",
+    "typescript": "5.4.5"
+  },
+  "devDependencies": {
+    "npm-run-all2": "6.1.2",
+    "prettier": "3.2.5",
+    "prettier-plugin-astro": "0.13.0",
+    "sort-package-json": "2.10.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -3,6 +3,12 @@
 - https://github.com/withastro/astro/tree/main/examples/minimal
 - https://ota-meshi.github.io/eslint-plugin-astro/user-guide/
 - https://docs.astro.build/en/editor-setup/#prettier
+  - https://github.com/withastro/prettier-plugin-astro
+  - https://prettier.io/docs/en/cli.html
+  - https://github.com/withastro/prettier-plugin-astro/tree/v0.13.0?tab=readme-ov-file#recommended-configuration
+  - https://github.com/withastro/astro/blob/astro%404.6.0/prettier.config.js
+  - https://github.com/withastro/prettier-plugin-astro/blob/v0.13.0/.prettierrc.json
+  - https://github.com/withastro/starlight/blob/%40astrojs/starlight%400.21.5/.prettierrc
 - https://docs.astro.build/en/concepts/why-astro/#easy-to-use:
   - "The `.astro` UI language is a superset of HTML: any valid HTML is valid Astro templating syntax!"
 - https://docs.astro.build/en/concepts/islands/:
@@ -35,9 +41,29 @@
 - https://docs.astro.build/en/install/manual/#6-add-typescript-support:
   - "(...) create `src/env.d.ts` to let TypeScript know about ambient types available in an Astro project"
 - https://docs.astro.build/en/guides/upgrade-to/v3/#moved-astro-check-now-requires-an-external-package: `@astrojs/check`
+- https://github.com/withastro/astro/blob/main/packages/astro/tsconfigs/strict.json
+- https://github.com/withastro/astro/blob/main/packages/astro/tsconfigs/strictest.json
+- https://docs.astro.build/en/guides/integrations-guide/sitemap/
+- https://biomejs.dev/internals/language-support/
 
 ## Commands
 
 ```bash
 npm create astro@latest -- --template minimal
+```
+
+```bash
+npm create astro@latest -- minimal-demo --template minimal --no-install --no-git --typescript strictest
+```
+
+```bash
+npm install \
+@astrojs/check \
+astro \
+typescript \
+&& npm install -D \
+npm-run-all2 \
+prettier \
+prettier-plugin-astro \
+sort-package-json
 ```
