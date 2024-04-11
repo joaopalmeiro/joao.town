@@ -31,6 +31,10 @@
   - https://docs.astro.build/en/guides/styling/#tailwind
   - https://docs.astro.build/en/guides/integrations-guide/tailwind/
   - https://github.com/withastro/astro/tree/main/packages/integrations/tailwind/
+- https://docs.astro.build/en/reference/api-reference/#astrogenerator
+- https://docs.astro.build/en/install/manual/#6-add-typescript-support:
+  - "(...) create `src/env.d.ts` to let TypeScript know about ambient types available in an Astro project"
+- https://docs.astro.build/en/guides/upgrade-to/v3/#moved-astro-check-now-requires-an-external-package: `@astrojs/check`
 
 ## Commands
 
