@@ -25,6 +25,13 @@
     - https://tailwindcss.com/blog/tailwindcss-v4-alpha
     - `npx astro add tailwind`
     - https://www.hyperui.dev/blog/how-to-write-better-containers-in-tailwindcss: `max-w-screen-xl mx-auto px-4` or `max-w-screen-md mx-auto px-4`
+- Fonts:
+  - https://docs.astro.build/en/guides/fonts/#using-fontsource
+  - https://docs.astro.build/en/guides/fonts/#register-fonts-in-tailwind
+  - https://tailwindcss.com/docs/font-family#using-custom-values
+  - https://caniuse.com/variable-fonts
+  - https://fontsource.org/fonts/bricolage-grotesque/install
+  - https://fontsource.org/fonts/work-sans/install
 
 ## Commands
 
