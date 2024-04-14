@@ -4,6 +4,7 @@ export default {
   content: ['./src/**/*.astro'],
   theme: {
     fontFamily: {
+      sans: ['"Work Sans Variable"', 'sans-serif'],
       title: ['"Bricolage Grotesque Variable"', 'sans-serif'],
     },
   },

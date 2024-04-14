@@ -46,7 +46,11 @@
 ```bash
 npm install \
 @astrojs/check \
+@astrojs/tailwind \
+@fontsource-variable/bricolage-grotesque \
+@fontsource-variable/work-sans \
 astro \
+tailwindcss \
 typescript \
 && npm install -D \
 @eslint/config-inspector \
