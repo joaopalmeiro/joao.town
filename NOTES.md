@@ -25,6 +25,8 @@
     - https://tailwindcss.com/blog/tailwindcss-v4-alpha
     - `npx astro add tailwind`
     - https://www.hyperui.dev/blog/how-to-write-better-containers-in-tailwindcss: `max-w-screen-xl mx-auto px-4` or `max-w-screen-md mx-auto px-4`
+    - https://tailwindcss.com/docs/configuration#using-esm-or-type-script
+    - https://github.com/francoismassart/eslint-plugin-tailwindcss/issues/280
 - Fonts:
   - https://docs.astro.build/en/guides/fonts/#using-fontsource
   - https://docs.astro.build/en/guides/fonts/#register-fonts-in-tailwind
@@ -32,6 +34,12 @@
   - https://caniuse.com/variable-fonts
   - https://fontsource.org/fonts/bricolage-grotesque/install
   - https://fontsource.org/fonts/work-sans/install
+- https://github.com/tailwindlabs/tailwindcss/discussions/9024
+- https://nodejs.org/api/esm.html#mandatory-file-extensions
+- https://nodejs.org/api/cli.html
+- https://stackoverflow.com/questions/10729276/how-can-i-get-the-full-object-in-node-jss-console-log-rather-than-object
+- https://github.com/joaopalmeiro/template-ts-jiti-script
+- https://mariusschulz.com/blog/dynamic-import-expressions-in-typescript
 
 ## Commands
 
@@ -44,12 +52,14 @@ typescript \
 @eslint/config-inspector \
 @joaopalmeiro/prettier-astro-config \
 @types/eslint \
+"@types/node@$(cat .nvmrc | cut -d . -f 1-2)" \
 @typescript-eslint/parser \
 eslint \
 eslint-plugin-astro \
 npm-run-all2 \
 prettier \
-sort-package-json
+sort-package-json \
+tsx
 ```
 
 ## Snippets
