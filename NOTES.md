@@ -13,6 +13,18 @@
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#using_the_download_attribute_to_save_a_canvas_as_a_png
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#security_and_privacy
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header
+- Tailwind CSS:
+  - https://tailwindcss.com/docs/guides/astro
+  - https://docs.astro.build/en/guides/integrations-guide/tailwind/
+  - https://github.com/withastro/astro/tree/main/packages/integrations/tailwind:
+    - https://github.com/withastro/astro/blob/main/packages/integrations/tailwind/CHANGELOG.md
+  - https://github.com/withastro/astro/tree/latest/examples/with-tailwindcss
+  - https://github.com/nicdun/astro-tech-blog:
+    - https://github.com/nicdun/astro-tech-blog/blob/main/src/layouts/Base.astro
+    - https://github.com/nicdun/astro-tech-blog/blob/main/src/layouts/post.astro#L13: `<div class="mx-auto w-full max-w-screen-md">`
+    - https://tailwindcss.com/blog/tailwindcss-v4-alpha
+    - `npx astro add tailwind`
+    - https://www.hyperui.dev/blog/how-to-write-better-containers-in-tailwindcss: `max-w-screen-xl mx-auto px-4` or `max-w-screen-md mx-auto px-4`
 
 ## Commands
 
@@ -100,4 +112,17 @@ sort-package-json
 <footer>
   <h2>Delivering accessible, performant, standards-compliant websites since 1999.</h2>
 </footer>
+```
+
+### Default `tailwind.config.mjs` file
+
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
 ```
