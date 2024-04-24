@@ -1,4 +1,6 @@
 ---
+import { groups } from 'd3-array';
+
 import '@fontsource-variable/bricolage-grotesque';
 import '@fontsource-variable/work-sans';
 
@@ -15,6 +17,12 @@ const dataURL = `https://raw.githubusercontent.com/joaopalmeiro/joaopalmeiro/${s
 
 const response = await fetch(dataURL);
 const data = (await response.json()) as Datum[];
+
+const dataToDisplay = groups(
+  data,
+  (d) => d.category,
+  (d) => d.subcategory
+);
 ---
 
 <html lang="en">
@@ -39,9 +47,28 @@ const data = (await response.json()) as Datum[];
       </header>
 
       <section>
-        <h2>Projects</h2>
+        <h2 class="font-title">Projects</h2>
 
-        {JSON.stringify(data)}
+        {
+          dataToDisplay.map(([category, subcategories]) => (
+            <>
+              <h3>{category}</h3>
+              {subcategories.map(([subcategory, projects]) => (
+                <>
+                  {subcategory && <h4>{subcategory}</h4>}
+                  <dl>
+                    {projects.map((project) => (
+                      <>
+                        <dt>{project.name}</dt>
+                        <dd>{project.description}</dd>
+                      </>
+                    ))}
+                  </dl>
+                </>
+              ))}
+            </>
+          ))
+        }
       </section>
     </main>
   </body>

@@ -58,6 +58,15 @@
 - https://github.com/ardatan/fets
 - https://github.com/sindresorhus/ky
 - https://nikolasbarwicki.com/articles/axios-vs-fetch/#type-safe-fetch-responses
+- https://d3js.org/d3-array/group#group
+- https://d3js.org/d3-array/group#groups
+- https://docs.astro.build/en/basics/astro-components/#the-component-template: `<ul> {myFavoritePokemon.map((data) => <li>{data.name}</li>)} </ul>`
+- https://yaak.canny.io/
+- https://docs.astro.build/en/basics/astro-syntax/#dynamic-html: `{visible && <p>Show me!</p>}`
+- https://docs.astro.build/en/basics/astro-syntax/#fragments: `<Fragment> </Fragment>` or `<> </>`
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl#wrapping_name-value_groups_in_div_elements
 
 ## Commands
 
@@ -68,11 +77,13 @@ npm install \
 @fontsource-variable/bricolage-grotesque \
 @fontsource-variable/work-sans \
 astro \
+d3-array \
 tailwindcss \
 typescript \
 && npm install -D \
 @eslint/config-inspector \
 @joaopalmeiro/prettier-astro-config \
+@types/d3-array \
 @types/eslint \
 "@types/node@$(cat .nvmrc | cut -d . -f 1-2)" \
 @typescript-eslint/parser \
