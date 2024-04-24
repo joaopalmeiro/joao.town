@@ -52,6 +52,12 @@
 - https://docs.astro.build/en/guides/data-fetching/:
   - "This fetch call will be executed at build time, and the data will be available to the component template for generating dynamic HTML. If SSR mode is enabled, any fetch calls will be executed at runtime."
   - https://docs.astro.build/en/guides/client-side-scripts/#client-side-scripts
+- https://www.builder.io/blog/safe-data-fetching:
+  - `return (await res.json()) as Type;`
+- https://hyoban.xlog.app/type-safe-fetch
+- https://github.com/ardatan/fets
+- https://github.com/sindresorhus/ky
+- https://nikolasbarwicki.com/articles/axios-vs-fetch/#type-safe-fetch-responses
 
 ## Commands
 

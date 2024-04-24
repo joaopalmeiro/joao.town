@@ -2,11 +2,19 @@
 import '@fontsource-variable/bricolage-grotesque';
 import '@fontsource-variable/work-sans';
 
+interface Datum {
+  name: string;
+  url: string;
+  description: string;
+  category: string;
+  subcategory: string | null;
+}
+
 const sha = 'd272768e77261332018ec7780ae620171f888711';
 const dataURL = `https://raw.githubusercontent.com/joaopalmeiro/joaopalmeiro/${sha}/data.json`;
 
 const response = await fetch(dataURL);
-const data = await response.json();
+const data = (await response.json()) as Datum[];
 ---
 
 <html lang="en">
