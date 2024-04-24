@@ -49,6 +49,9 @@
   - https://github.com/sethcottle/littlelink/blob/v2.4.1/css/skeleton-light.css#L34
   - https://github.com/sethcottle/littlelink/blob/v2.4.1/css/skeleton-light.css#L59
   - `max-width: 600px;`
+- https://docs.astro.build/en/guides/data-fetching/:
+  - "This fetch call will be executed at build time, and the data will be available to the component template for generating dynamic HTML. If SSR mode is enabled, any fetch calls will be executed at runtime."
+  - https://docs.astro.build/en/guides/client-side-scripts/#client-side-scripts
 
 ## Commands
 
