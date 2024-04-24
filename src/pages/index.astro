@@ -36,7 +36,7 @@ const dataToDisplay = groups(
     <meta name="description" content="My personal website." />
   </head>
 
-  <body>
+  <body class="mx-auto px-5 max-w-screen-md">
     <main>
       <header>
         <h1 class="font-title">João Palmeiro</h1>
@@ -49,26 +49,29 @@ const dataToDisplay = groups(
       <section>
         <h2 class="font-title">Projects</h2>
 
-        {
-          dataToDisplay.map(([category, subcategories]) => (
-            <>
-              <h3>{category}</h3>
-              {subcategories.map(([subcategory, projects]) => (
-                <>
-                  {subcategory && <h4>{subcategory}</h4>}
-                  <dl>
-                    {projects.map((project) => (
-                      <>
-                        <dt>{project.name}</dt>
-                        <dd>{project.description}</dd>
-                      </>
-                    ))}
-                  </dl>
-                </>
-              ))}
-            </>
-          ))
-        }
+        <div class="grid grid-cols-3">
+          {
+            dataToDisplay.map(([category, subcategories]) => (
+              <div class="border">
+                <h3>{category}</h3>
+
+                {subcategories.map(([subcategory, projects]) => (
+                  <>
+                    {subcategory && <h4>{subcategory}</h4>}
+                    <dl>
+                      {projects.map((project) => (
+                        <>
+                          <dt>{project.name}</dt>
+                          <dd>{project.description}</dd>
+                        </>
+                      ))}
+                    </dl>
+                  </>
+                ))}
+              </div>
+            ))
+          }
+        </div>
       </section>
     </main>
   </body>
