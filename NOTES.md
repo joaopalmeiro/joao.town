@@ -45,6 +45,10 @@
   - https://github.com/markhorn-dev/astro-sphere/blob/v1.0.1/src/components/Container.astro
   - https://github.com/markhorn-dev/astro-sphere/blob/v1.0.1/src/layouts/TopLayout.astro
   - `w-full h-full mx-auto px-5 max-w-screen-md`
+- https://littlelink.io/:
+  - https://github.com/sethcottle/littlelink/blob/v2.4.1/css/skeleton-light.css#L34
+  - https://github.com/sethcottle/littlelink/blob/v2.4.1/css/skeleton-light.css#L59
+  - `max-width: 600px;`
 
 ## Commands
 
