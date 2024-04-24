@@ -41,6 +41,10 @@
 - https://github.com/joaopalmeiro/template-ts-jiti-script
 - https://mariusschulz.com/blog/dynamic-import-expressions-in-typescript
 - https://github.com/ttomczak3/Milky-Way/blob/v1.2.0/src/styles/global.css#L19: `body { max-width: 540px; margin: 0 auto; text-align: justify; }`
+- https://astro-sphere-demo.vercel.app/:
+  - https://github.com/markhorn-dev/astro-sphere/blob/v1.0.1/src/components/Container.astro
+  - https://github.com/markhorn-dev/astro-sphere/blob/v1.0.1/src/layouts/TopLayout.astro
+  - `w-full h-full mx-auto px-5 max-w-screen-md`
 
 ## Commands
 
