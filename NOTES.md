@@ -40,6 +40,7 @@
 - https://stackoverflow.com/questions/10729276/how-can-i-get-the-full-object-in-node-jss-console-log-rather-than-object
 - https://github.com/joaopalmeiro/template-ts-jiti-script
 - https://mariusschulz.com/blog/dynamic-import-expressions-in-typescript
+- https://github.com/ttomczak3/Milky-Way/blob/v1.2.0/src/styles/global.css#L19: `body { max-width: 540px; margin: 0 auto; text-align: justify; }`
 
 ## Commands
 
