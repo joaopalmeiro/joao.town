@@ -1,6 +1,7 @@
 # Notes
 
 - https://github.com/joaopalmeiro/template-astro
+- https://gitlab.com/joaommpalmeiro/tailwind-recipes
 - https://htmlandcssguidebook.com/html/html5-semantic/
 - https://web.dev/learn/html/headings-and-sections#document_structure
 - https://www.aleksandrhovhannisyan.com/blog/semantic-html-accessibility/
@@ -69,6 +70,8 @@
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl#wrapping_name-value_groups_in_div_elements
 - https://flowbite.com/docs/typography/hr/
 - https://preline.co/docs/dividers.html
+- https://uiverse.io/kamehame-ha/chilly-snake-91
+- https://ui.nuxt.com/components/card
 
 ## Commands
 
