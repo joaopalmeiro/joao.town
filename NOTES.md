@@ -72,6 +72,12 @@
 - https://preline.co/docs/dividers.html
 - https://uiverse.io/kamehame-ha/chilly-snake-91
 - https://ui.nuxt.com/components/card
+- Cursor:
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/url
+  - https://docs.astro.build/en/guides/images/#src-vs-public
+  - https://tailwindcss.com/docs/cursor#using-custom-values
+  - https://kenney.nl/assets/cursor-pack
 
 ## Commands
 
