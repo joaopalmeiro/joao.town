@@ -59,7 +59,9 @@ const dataToDisplay = groups(
           {
             dataToDisplay.map(([category, subcategories]) => (
               <div class="border">
-                <h3>{category}</h3>
+                <div class="border-b">
+                  <h3>{category}</h3>
+                </div>
 
                 {subcategories.map(([subcategory, projects]) => (
                   <>

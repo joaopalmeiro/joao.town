@@ -67,6 +67,8 @@
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl:
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl#wrapping_name-value_groups_in_div_elements
+- https://flowbite.com/docs/typography/hr/
+- https://preline.co/docs/dividers.html
 
 ## Commands
 
