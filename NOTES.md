@@ -78,6 +78,7 @@
   - https://docs.astro.build/en/guides/images/#src-vs-public
   - https://tailwindcss.com/docs/cursor#using-custom-values
   - https://kenney.nl/assets/cursor-pack
+- https://stackoverflow.com/questions/23880280/change-color-of-svg-image-used-as-cursor
 
 ## Commands
 
