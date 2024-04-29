@@ -79,6 +79,9 @@
   - https://tailwindcss.com/docs/cursor#using-custom-values
   - https://kenney.nl/assets/cursor-pack
 - https://stackoverflow.com/questions/23880280/change-color-of-svg-image-used-as-cursor
+- `.npmrc`:
+  - https://twitter.com/jacobmparis/status/1784841203680244154
+  - https://twitter.com/remcohaszing/status/1784860178967343215
 
 ## Commands
 
@@ -105,6 +108,14 @@ npm-run-all2 \
 prettier \
 sort-package-json \
 tsx
+```
+
+```bash
+npm cache clean --force && rm -rf node_modules/ && npm install
+```
+
+```bash
+npm config list --long
 ```
 
 ## Snippets
