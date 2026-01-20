@@ -83,6 +83,9 @@
   - https://twitter.com/jacobmparis/status/1784841203680244154
   - https://twitter.com/remcohaszing/status/1784860178967343215
 - https://www.stefanjudis.com/today-i-learned/readonly-files-in-vscode/
+- https://ui.full.dev/
+- https://github.com/feat-agency/vite-plugin-webfont-dl
+- https://www.fontshare.com/pairs
 
 ## Commands
 
