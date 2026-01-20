@@ -1,5 +1,25 @@
 ---
+import { z } from "astro/zod";
+
 import Layout from "../layouts/Base.astro";
+
+const repo = encodeURIComponent("joaommpalmeiro/os-contribs");
+const filePath = encodeURIComponent("data/contribs.json");
+const ref = "main";
+const url = `https://gitlab.com/api/v4/projects/${repo}/repository/files/${filePath}/raw?ref=${ref}`;
+
+const Datum = z.object({
+  repo: z.string(),
+  url: z.string().url(),
+  title: z.string(),
+  mr_pr: z.string().url(),
+  merged_at: z.coerce.date(),
+});
+const Data = z.array(Datum);
+
+const response = await fetch(url);
+const rawData = await response.json();
+const data = Data.parse(rawData);
 ---
 
 <Layout
@@ -8,5 +28,9 @@ import Layout from "../layouts/Base.astro";
 >
   <main>
     <h1>Open source contributions</h1>
+
+    <pre>
+        {JSON.stringify(data, null, 2)}
+    </pre>
   </main>
 </Layout>
