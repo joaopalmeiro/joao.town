@@ -86,6 +86,7 @@
 - https://ui.full.dev/
 - https://github.com/feat-agency/vite-plugin-webfont-dl
 - https://www.fontshare.com/pairs
+- https://github.com/markhorn-dev/astro-nano
 
 ## Commands
 
@@ -202,4 +203,14 @@ export default {
   },
   plugins: [],
 };
+```
+
+### `color-scheme`
+
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/name
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/name/color-scheme
+- https://odet.pt/
+
+```html
+<meta name="color-scheme" content="only light">
 ```
