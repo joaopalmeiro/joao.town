@@ -11,9 +11,16 @@
     "url": "https://github.com/joaopalmeiro"
   },
   "scripts": {
-    "dev": "astro dev"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview --host --allowed-hosts host.rancher-desktop.internal",
+    "test": "PW_TEST_CONNECT_WS_ENDPOINT=ws://127.0.0.1:3000/ playwright test"
   },
   "dependencies": {
     "astro": "5.16.11"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.57.0",
+    "@types/node": "25.0.9"
   }
 }
