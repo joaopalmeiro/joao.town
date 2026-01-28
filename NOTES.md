@@ -36,6 +36,12 @@
   - [[Playwright]: process.platform, os.platform() usages in playwright resolve to host platform instead of remote browser platform](https://github.com/Azure/azure-sdk-for-js/issues/35997) issue
   - https://playwright.dev/docs/api/class-testconfig#test-config-snapshot-path-template
   - https://playwright.dev/docs/api/class-pageassertions#page-assertions-to-have-screenshot-1
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/lang:
+  - https://www.ietf.org/rfc/bcp/bcp47.txt
+  - https://developer.mozilla.org/en-US/docs/Glossary/BCP_47_language_tag
+  - https://gist.github.com/JamieMason/3748498
+- https://the0x00.dev/javascript/How-to-scramble-a-string-in-Javascript/
+- https://futurestud.io/tutorials/how-to-shuffle-the-characters-of-a-string-in-javascript-or-node-js
 
 ## Commands
 

@@ -1,13 +1,26 @@
 ---
 import Layout from "../layouts/Base.astro";
+import { shuffle } from "../utils";
+
+const id = shuffle("JOÃO_PALMEIRO");
 ---
 
 <Layout title="João Palmeiro" description="My personal website.">
-  <main>
-    <h1>João Palmeiro</h1>
+  <header>
+    <h1 lang="pt-PT">João Palmeiro</h1>
 
     <address>
       <a href="mailto:joaopalmeiro@proton.me">joaopalmeiro@proton.me</a>
     </address>
-  </main>
+
+    <a href="https://www.linkedin.com/in/joaopalmeiro/" target="_blank"
+      >LinkedIn</a
+    >
+  </header>
+
+  <main>TODO</main>
+
+  <footer>
+    <p>{id}</p>
+  </footer>
 </Layout>
