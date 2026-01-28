@@ -1,6 +1,5 @@
+import { shuffle as d3Shuffle } from "d3-array";
+
 export function shuffle(str: string): string {
-  return str
-    .split("")
-    .sort(() => Math.random() - 0.5)
-    .join("");
+  return d3Shuffle(str.split("")).join("");
 }

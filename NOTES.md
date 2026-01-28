@@ -62,6 +62,8 @@
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header
 - https://bati-itao.github.io/learning/esdc-self-paced-web-accessibility-course/module2/lists.html#description-list
 - https://www.sarasoueidan.com/
+- https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+- https://bost.ocks.org/mike/shuffle/
 
 ## Commands
 
@@ -85,4 +87,15 @@ docker context show
 
 ```bash
 docker pull mcr.microsoft.com/playwright:v1.57.0-noble
+```
+
+## Snippets
+
+```ts
+export function shuffle(str: string): string {
+  return str
+    .split("")
+    .sort(() => Math.random() - 0.5)
+    .join("");
+}
 ```

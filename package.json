@@ -17,10 +17,12 @@
     "test": "PW_TEST_CONNECT_WS_ENDPOINT=ws://127.0.0.1:3000/ playwright test"
   },
   "dependencies": {
-    "astro": "5.16.11"
+    "astro": "5.16.11",
+    "d3-array": "3.2.4"
   },
   "devDependencies": {
     "@playwright/test": "1.57.0",
+    "@types/d3-array": "3.2.2",
     "@types/node": "25.0.9"
   }
 }
