@@ -42,6 +42,26 @@
   - https://gist.github.com/JamieMason/3748498
 - https://the0x00.dev/javascript/How-to-scramble-a-string-in-Javascript/
 - https://futurestud.io/tutorials/how-to-shuffle-the-characters-of-a-string-in-javascript-or-node-js
+- https://www.docuseal.com/blog/css-print-page-style
+- https://issues.chromium.org/issues/40657181
+  - https://issues.chromium.org/issues/41427382
+- https://github.com/cllu/Semantic-Resume
+  - `<section> <h2>Education</h2> <details> <summary> <span itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"> <link href="https://www.cuhk.edu.hk/" itemprop="url"> <span itemprop="name">The Chinese University of Hong Kong</span>, <time>2011 - 2016</time> </summary> Research Area: Entity Retrieval, Natural Language Processing, Knowledge Graph. </details> </section>`
+- https://michaelengen.com/posts/my-eleventy-resume/
+  - `<main> <section> <h2>Experience</h2> <section> <!-- Much experience --> </section> <section> <!-- Wow --> </section> </section> <section> <h2>Education</h2> <section> <!-- University --> </section> <section> <!-- College, maybe --> </section> </section> </main>`
+- https://stackoverflow.com/questions/7131204/html5-resume-semantics
+  - `<section> <h2>Experience</h2> <dl> <dt>THE JOB TITLE</dt> <dd> <dl> <dt>Company:</dt><dd>THE COMPANY</dd> <dt>Period:</dt><dd> <time class="dtstart" datetime="2007-02-01">Feb 2007</time> - <time class="dtend" datetime="2009-09-30">Sep 2009</time>, </dd> <dt>Description:</dt><dd> DESCRIPTION </dd> </dl> </dd> <!-- more jobs here as dt-dd-pairs --> </dl> </section>`
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dl
+- https://github.com/maxboeck/resume
+  - https://demo-resume.netlify.app/
+  - https://mxb.dev/blog/eleventy-resume-builder/
+- https://github.com/alexcalaca/semantic_html_cv/blob/master/index.html
+- https://gist.github.com/joshbuchea/a5b2d73e4c8e9560eb47a3c366be0da3
+- https://registry.jsonresume.org/thomasdavis?theme=academic-cv-lite
+- https://tailwindcss.com/plus/templates/spotlight/preview
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/header
+- https://bati-itao.github.io/learning/esdc-self-paced-web-accessibility-course/module2/lists.html#description-list
+- https://www.sarasoueidan.com/
 
 ## Commands
 
