@@ -64,6 +64,9 @@
 - https://www.sarasoueidan.com/
 - https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 - https://bost.ocks.org/mike/shuffle/
+- [tsdown](https://tsdown.dev/) starter templates:
+  - https://github.com/rolldown/tsdown/blob/v0.20.1/packages/create-tsdown/src/index.ts#L15
+  - https://github.com/sxzz/tsdown-templates
 
 ## Commands
 
