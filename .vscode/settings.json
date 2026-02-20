@@ -1,4 +1,8 @@
 {
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
   "files.readonlyInclude": {
     "deprecated/**": true
   }
