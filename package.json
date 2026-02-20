@@ -1,6 +1,5 @@
 {
   "name": "joao.town",
-  "type": "module",
   "version": "0.0.0",
   "private": true,
   "description": "My personal website.",
@@ -10,18 +9,21 @@
     "email": "joaopalmeiro@proton.me",
     "url": "https://github.com/joaopalmeiro"
   },
+  "type": "module",
   "scripts": {
-    "dev": "astro dev",
     "build": "astro build",
+    "dev": "astro dev",
     "preview": "astro preview --host --allowed-hosts host.rancher-desktop.internal",
     "test": "PW_TEST_CONNECT_WS_ENDPOINT=ws://127.0.0.1:3000/ playwright test"
   },
   "dependencies": {
     "astro": "5.16.11",
-    "d3-array": "3.2.4"
+    "d3-array": "3.2.4",
+    "tailwindcss": "4.2.0"
   },
   "devDependencies": {
     "@playwright/test": "1.57.0",
+    "@tailwindcss/vite": "4.2.0",
     "@types/d3-array": "3.2.2",
     "@types/node": "25.0.9"
   }

@@ -67,6 +67,9 @@
 - [tsdown](https://tsdown.dev/) starter templates:
   - https://github.com/rolldown/tsdown/blob/v0.20.1/packages/create-tsdown/src/index.ts#L15
   - https://github.com/sxzz/tsdown-templates
+- https://docs.astro.build/en/guides/styling/#tailwind
+- https://tailwindcss.com/docs/installation/framework-guides/astro
+- https://github.com/tailwindlabs/tailwindcss/blob/v4.2.0/packages/tailwindcss/preflight.css
 
 ## Commands
 
