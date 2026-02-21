@@ -77,6 +77,15 @@
   - https://vercel.com/font
     - https://vercel.com/font?type=pixel (Geist Pixel Square)
 - https://cv.jarocki.me/
+- https://pdfa.org/chrome-plated-pdfs-exploring-google-chromes-new-pdf-capabilities/
+- https://check.axes4.com/en/
+- https://typst.app/blog/2025/accessible-pdf/
+  - https://typst.app/docs/guides/accessibility/#testing-for-accessibility
+  - https://github.com/verapdf
+    - https://docs.verapdf.org/cli/
+    - https://docs.verapdf.org/cli/validation/
+    - https://formulae.brew.sh/formula/verapdf
+- https://piccalil.li/blog/a-guide-to-creating-accessible-pdfs-using-free-tools/
 
 ## Commands
 
@@ -86,6 +95,10 @@ npm create astro@latest -- --help
 
 ```bash
 npx playwright install chromium --with-deps
+```
+
+```bash
+verapdf João\ Palmeiro.pdf --format html
 ```
 
 ### Rancher Desktop
