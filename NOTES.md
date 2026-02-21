@@ -70,6 +70,13 @@
 - https://docs.astro.build/en/guides/styling/#tailwind
 - https://tailwindcss.com/docs/installation/framework-guides/astro
 - https://github.com/tailwindlabs/tailwindcss/blob/v4.2.0/packages/tailwindcss/preflight.css
+- Fonts:
+  - https://somepx.itch.io/
+    - https://somepx.itch.io/pixel-font-gecko
+    - https://somepx.itch.io/pixel-font-saga
+  - https://vercel.com/font
+    - https://vercel.com/font?type=pixel (Geist Pixel Square)
+- https://cv.jarocki.me/
 
 ## Commands
 
