@@ -95,6 +95,7 @@
 - https://schema.org/
 - https://a11y-guidelines.orange.com/en/web/develop/common-navigation/#warn-the-user-when-opening-a-new-window
 - https://theadminbar.com/accessibility-weekly/opening-links-in-new-tabs-or-not/: `<a href="<https://www.facebook.com/groups/wordpress.accessibility>" class="primary-button" target="_blank" rel="noopener">Join the Community <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="screen-reader-text"> opens a new window</span></a>`
+- https://tailwindcss.com/docs/display#screen-reader-only
 
 ## Commands
 
@@ -151,4 +152,294 @@ export function shuffle(str: string): string {
     </li>
   </ul>
 </section>
+```
+
+### Kimi K2 (0905)
+
+```astro
+---
+import Layout from "../layouts/Base.astro";
+import { shuffle } from "../utils";
+
+const id = `OS_${shuffle("JOÃO_PALMEIRO")}`;
+---
+
+<Layout
+  title="João Palmeiro"
+  description="My personal website."
+>
+  <!-- 1. Let keyboard users jump straight to the main content -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- 2. Banner landmark -->
+  <header class="page-header">
+    <h1 lang="pt-PT">João Palmeiro</h1>
+
+    <!-- These are related pieces of metadata - a DL keeps them associated -->
+    <dl class="meta">
+      <dt class="visually-hidden">Pronouns</dt>
+      <dd>he/him</dd>
+
+      <dt class="visually-hidden">Location</dt>
+      <dd>Lisbon, Portugal (UTC+00:00)</dd>
+    </dl>
+
+    <address>
+      <a href="mailto:joaopalmeiro@proton.me">joaopalmeiro@proton.me</a>
+    </address>
+  </header>
+
+  <!-- 3. Main landmark with an ID for the skip link -->
+  <main id="main">
+    <!-- Profile section -->
+    <section aria-labelledby="profile-heading">
+      <h2 id="profile-heading">Profile</h2>
+      <p>TODO</p>
+    </section>
+
+    <!-- Experience section -->
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+
+      <!-- Each job is a SECTION, not an ARTICLE, because it is not
+           a self-contained syndicatable story. -->
+      <section class="job">
+        <h3>Data Visualization Engineer at Feedzai</h3>
+        <p><time datetime="TODO">TODO</time> - present</p>
+
+        <h4>Public highlights</h4>
+        <ul>
+          <li>
+            Benchmark It Yourself (BIY): Preparing a Dataset and Benchmarking
+            AI Models for Scatterplot-Related Tasks
+          </li>
+          <li>
+            Here and Now: Reusing Code at Feedzai with JupyterLab Snippets
+          </li>
+        </ul>
+      </section>
+
+      <section class="job">
+        <h3>Full-Stack Developer at Jungle</h3>
+        <p>
+          <time datetime="TODO">TODO</time> -
+          <time datetime="TODO">TODO</time>
+        </p>
+      </section>
+
+      <section class="job">
+        <h3>Data Visualization Engineer at Feedzai</h3>
+        <p>
+          <time datetime="TODO">TODO</time> -
+          <time datetime="TODO">TODO</time>
+        </p>
+      </section>
+
+      <section class="job">
+        <h3>Research Intern at Feedzai</h3>
+        <p>
+          <time datetime="TODO">TODO</time> -
+          <time datetime="TODO">TODO</time>
+        </p>
+      </section>
+
+      <section class="job">
+        <h3>Engineering Intern at Feedzai</h3>
+        <p>
+          <time datetime="TODO">TODO</time> -
+          <time datetime="TODO">TODO</time>
+        </p>
+      </section>
+
+      <section class="job">
+        <h3>Assistant Consultant at everis (NTT DATA)</h3>
+        <p>
+          <time datetime="TODO">TODO</time> -
+          <time datetime="TODO">TODO</time>
+        </p>
+      </section>
+    </section>
+  </main>
+
+  <!-- 4. Content-info landmark -->
+  <footer>
+    <h2>More about me</h2>
+
+    <dl>
+      <dt>Full CV</dt>
+      <dd>
+        <a href="https://www.linkedin.com/in/joaopalmeiro/">
+          LinkedIn (joaopalmeiro)
+        </a>
+      </dd>
+      <dd><a href="/contribs">Open source contributions</a></dd>
+
+      <dt>Projects</dt>
+      <dd><a href="TODO">GitHub (TODO)</a></dd>
+      <dd><a href="TODO">GitLab (TODO)</a></dd>
+      <dd><a href="TODO">Codeberg (TODO)</a></dd>
+      <dd>
+        <a href="https://huggingface.co/joaompalmeiro">
+          Hugging Face (joaompalmeiro)
+        </a>
+      </dd>
+    </dl>
+
+    <!-- ARIA label keeps the ID meaningful only for developers -->
+    <p aria-label="Page identifier">{id}</p>
+  </footer>
+</Layout>
+```
+
+### Kimi K2.5
+
+```astro
+---
+import Layout from "../layouts/Base.astro";
+import { shuffle } from "../utils";
+
+const id = `OS_${shuffle("JOÃO_PALMEIRO")}`;
+const currentYear = new Date().getFullYear();
+---
+
+<Layout title="João Palmeiro" description="My personal website.">
+  <!-- Skip link for keyboard navigation -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <!-- Add aria-label to distinguish from other headers -->
+    <h1 lang="pt-PT">João Palmeiro</h1>
+
+    <!-- Use aria-label for pronunciation hint -->
+    <p aria-label="Pronouns: he, him">he/him</p>
+
+    <p>
+      <span aria-label="Location">Lisbon, Portugal</span>
+      <time datetime="+00:00">(UTC+00:00)</time>
+    </p>
+
+    <address>
+      <a href="mailto:joaopalmeiro@proton.me">joaopalmeiro@proton.me</a>
+    </address>
+  </header>
+
+  <!-- Landmark with explicit label and skip target -->
+  <main id="main-content" aria-label="Resume content">
+
+    <!-- Use section instead of article for thematic grouping -->
+    <section aria-labelledby="profile-heading">
+      <h2 id="profile-heading">Profile</h2>
+      <p>TODO</p>
+    </section>
+
+    <!-- Experience as section, individual jobs as articles -->
+    <section aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+
+      <!-- Each job is an independent article -->
+      <article aria-labelledby="job-1-heading">
+        <header>
+          <h3 id="job-1-heading">
+            <span class="visually-hidden">Current position: </span>
+            Data Visualization Engineer at Feedzai
+          </span>
+          </h3>
+          <!-- Use present tense for current job -->
+          <p>
+            <time datetime="TODO">TODO</time> – present
+          </p>
+        </header>
+
+        <section aria-labelledby="highlights-heading">
+          <h4 id="highlights-heading">Public highlights</h4>
+          <ul>
+            <li>
+              Benchmark It Yourself (BIY): Preparing a Dataset and Benchmarking
+              AI Models for Scatterplot-Related Tasks
+            </li>
+            <li>
+              Here and Now: Reusing Code at Feedzai with JupyterLab Snippets
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Add aria-labelledby to remaining articles -->
+      <article aria-labelledby="job-2-heading">
+        <header>
+          <h3 id="job-2-heading">Full-Stack Developer at Jungle</h3>
+          <p>
+            <time datetime="TODO">TODO</time> – <time datetime="TODO">TODO</time>
+          </p>
+        </header>
+      </article>
+
+      <!-- Remaining job entries... -->
+
+    </section>
+  </main>
+
+  <footer>
+    <!-- Use nav for link collections -->
+    <nav aria-labelledby="more-heading">
+      <h2 id="more-heading">More about me</h2>
+
+      <!-- Split dl into logical groups -->
+      <section aria-labelledby="cv-heading">
+        <h3 id="cv-heading" class="visually-hidden">Curriculum Vitae</h3>
+        <dl>
+          <dt>Full CV</dt>
+          <dd>
+            <a
+              href="https://www.linkedin.com/in/joaopalmeiro/"
+              aria-describedby="cv-heading"
+            >
+              LinkedIn (joaopalmeiro)
+            </a>
+          </dd>
+          <dd>
+            <a href="/contribs">Open source contributions</a>
+          </dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="projects-heading">
+        <h3 id="projects-heading" class="visually-hidden">Projects</h3>
+        <dl>
+          <dt>Projects</dt>
+          <dd>
+            <a href="TODO" aria-label="GitHub profile (opens in new tab)" target="_blank" rel="noopener noreferrer">
+              GitHub (TODO)
+            </a>
+          </dd>
+          <dd>
+            <a href="TODO" aria-label="GitLab profile (opens in new tab)" target="_blank" rel="noopener noreferrer">
+              GitLab (TODO)
+            </dd>
+          <dd>
+            <a href="TODO" aria-label="Codeberg profile (opens in new tab)" target="_blank" rel="noopener noreferrer">
+              Codeberg (TODO)
+            </a>
+          </dd>
+          <dd>
+            <a
+              href="https://huggingface.co/joaompalmeiro"
+              aria-label="Hugging Face profile (opens in new tab)"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Hugging Face (joaompalmeiro)
+            </a>
+          </dd>
+        </dl>
+      </section>
+    </nav>
+
+    <!-- Make ID less cryptic or add explanation -->
+    <p aria-label="Page identifier">{id}</p>
+
+    <!-- Add copyright -->
+    <p>© <time>{currentYear}</time> João Palmeiro</p>
+  </footer>
+</Layout>
 ```
