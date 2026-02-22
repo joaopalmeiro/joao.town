@@ -91,6 +91,7 @@
 - https://docs.rendercv.com/user_guide/yaml_input_structure/cv/: `highlights`
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dl#metadata: "Description lists are useful for displaying metadata as a list of key-value pairs."
 - https://tailwindcss.com/plus/ui-blocks/application-ui/data-display/description-lists
+- https://en.pronouns.page/he
 
 ## Commands
 
