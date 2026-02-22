@@ -77,6 +77,7 @@
   - https://vercel.com/font
     - https://vercel.com/font?type=pixel (Geist Pixel Square)
 - https://cv.jarocki.me/
+  - `<div class="text-sm tabular-nums text-gray-500" aria-label="Employment period: 2010 to 2012">2010 - 2012</div>`
 - https://pdfa.org/chrome-plated-pdfs-exploring-google-chromes-new-pdf-capabilities/
 - https://check.axes4.com/en/
 - https://typst.app/blog/2025/accessible-pdf/
@@ -86,6 +87,10 @@
     - https://docs.verapdf.org/cli/validation/
     - https://formulae.brew.sh/formula/verapdf
 - https://piccalil.li/blog/a-guide-to-creating-accessible-pdfs-using-free-tools/
+- `<h2>More about me</h2>`, `<h2>Full CV and projects</h2>`
+- https://docs.rendercv.com/user_guide/yaml_input_structure/cv/: `highlights`
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dl#metadata: "Description lists are useful for displaying metadata as a list of key-value pairs."
+- https://tailwindcss.com/plus/ui-blocks/application-ui/data-display/description-lists
 
 ## Commands
 
@@ -124,4 +129,22 @@ export function shuffle(str: string): string {
     .sort(() => Math.random() - 0.5)
     .join("");
 }
+```
+
+```html
+<section>
+  <h2>More about me</h2>
+  <ul>
+    <li>
+      <a href="https://www.linkedin.com/in/joaopalmeiro/" target="_blank">
+        LinkedIn (joaopalmeiro)
+      </a>
+    </li>
+    <li>
+      <a href="https://huggingface.co/joaompalmeiro" target="_blank">
+        Hugging Face (joaompalmeiro)
+      </a>
+    </li>
+  </ul>
+</section>
 ```
