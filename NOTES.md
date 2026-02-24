@@ -104,6 +104,8 @@
 - https://developers.google.com/search/docs/advanced/robots/create-robots-txt
   - https://github.com/google/robotstxt
   - https://docs.astro.build/en/guides/integrations-guide/sitemap/
+- https://securitytxt.org/
+  - https://www.rfc-editor.org/rfc/rfc9116#section-2.5.8
 
 ## Commands
 
