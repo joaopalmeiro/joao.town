@@ -14,6 +14,7 @@
     - https://zod.dev/basics
     - https://zod.dev/api
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/address
+  - "The <address> element can only be used to represent the contact information for its nearest <article> or <body> element ancestor."
 - https://github.com/readme/guides/first-oss-contribution: "open source contribution"
 - https://docs.gitlab.com/api/repository_files/
 - https://docs.rancherdesktop.io/ui/preferences/application/general/#administrative-access: "(...) the socket is instead created at `~/.rd/docker.sock` and is accessible via the `rancher-desktop` Docker context."
@@ -96,6 +97,10 @@
 - https://a11y-guidelines.orange.com/en/web/develop/common-navigation/#warn-the-user-when-opening-a-new-window
 - https://theadminbar.com/accessibility-weekly/opening-links-in-new-tabs-or-not/: `<a href="<https://www.facebook.com/groups/wordpress.accessibility>" class="primary-button" target="_blank" rel="noopener">Join the Community <i class="fas fa-external-link-alt" aria-hidden="true"></i><span class="screen-reader-text"> opens a new window</span></a>`
 - https://tailwindcss.com/docs/display#screen-reader-only
+- https://www.sarasoueidan.com/blog/horizontal-rules/:
+  - "use `aria-hidden="true"` to hide decorational horizontal lines."
+  - https://www.stefanjudis.com/today-i-learned/the-hr-element-is-more-than-a-horizontal-line/
+- https://en.wikipedia.org/wiki/Time_in_Portugal
 
 ## Commands
 
