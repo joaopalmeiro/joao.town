@@ -101,6 +101,9 @@
   - "use `aria-hidden="true"` to hide decorational horizontal lines."
   - https://www.stefanjudis.com/today-i-learned/the-hr-element-is-more-than-a-horizontal-line/
 - https://en.wikipedia.org/wiki/Time_in_Portugal
+- https://developers.google.com/search/docs/advanced/robots/create-robots-txt
+  - https://github.com/google/robotstxt
+  - https://docs.astro.build/en/guides/integrations-guide/sitemap/
 
 ## Commands
 
