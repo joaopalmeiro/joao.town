@@ -75,6 +75,7 @@
   - https://somepx.itch.io/
     - https://somepx.itch.io/pixel-font-gecko
     - https://somepx.itch.io/pixel-font-saga
+    - https://somepx.itch.io/pixel-font-empire
   - https://vercel.com/font
     - https://vercel.com/font?type=pixel (Geist Pixel Square)
 - https://cv.jarocki.me/
