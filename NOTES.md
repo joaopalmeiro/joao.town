@@ -107,6 +107,9 @@
   - https://docs.astro.build/en/guides/integrations-guide/sitemap/
 - https://securitytxt.org/
   - https://www.rfc-editor.org/rfc/rfc9116#section-2.5.8
+- [chore: speed up pre-commit hooks](https://github.com/npmx-dev/npmx.dev/pull/1661/changes)
+  - `"./node_modules/.bin/oxlint --fix"` instead of `"pnpm oxlint --fix"`, for example
+  - https://github.com/lunariajs/lunaria
 
 ## Commands
 
