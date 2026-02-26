@@ -110,6 +110,7 @@
 - [chore: speed up pre-commit hooks](https://github.com/npmx-dev/npmx.dev/pull/1661/changes)
   - `"./node_modules/.bin/oxlint --fix"` instead of `"pnpm oxlint --fix"`, for example
   - https://github.com/lunariajs/lunaria
+- [oxfmt: bundle prettier-plugin-svelte and prettier-plugin-astro](https://github.com/oxc-project/oxc/issues/19715) issue
 
 ## Commands
 
@@ -166,6 +167,18 @@ export function shuffle(str: string): string {
     </li>
   </ul>
 </section>
+```
+
+```html
+<article>
+  <header>
+    <h3>Assistant Consultant at everis (NTT DATA)</h3>
+    <p>
+      <time datetime="2018-07">Jul 2018</time> -
+      <time datetime="2018-09">Sep 2018</time>
+    </p>
+  </header>
+</article>
 ```
 
 ### Kimi K2 (0905)
@@ -360,7 +373,7 @@ const currentYear = new Date().getFullYear();
           </h3>
           <!-- Use present tense for current job -->
           <p>
-            <time datetime="TODO">TODO</time> – present
+            <time datetime="TODO">TODO</time> - present
           </p>
         </header>
 
@@ -383,7 +396,7 @@ const currentYear = new Date().getFullYear();
         <header>
           <h3 id="job-2-heading">Full-Stack Developer at Jungle</h3>
           <p>
-            <time datetime="TODO">TODO</time> – <time datetime="TODO">TODO</time>
+            <time datetime="TODO">TODO</time> - <time datetime="TODO">TODO</time>
           </p>
         </header>
       </article>
