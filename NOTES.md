@@ -111,6 +111,18 @@
   - `"./node_modules/.bin/oxlint --fix"` instead of `"pnpm oxlint --fix"`, for example
   - https://github.com/lunariajs/lunaria
 - [oxfmt: bundle prettier-plugin-svelte and prettier-plugin-astro](https://github.com/oxc-project/oxc/issues/19715) issue
+- https://fonts.google.com/specimen/VT323
+- Typewriter-style fonts:
+  - https://www.dafont.com/theme.php?cat=113
+  - https://typetype.org/blog/typewriter-fonts-from-retro-mechanics-to-digital-classics/
+  - https://fonts.google.com/specimen/Special+Elite
+  - https://github.com/ctrlcctrlv/TT2020
+  - https://fonts.adobe.com/discovery/typewriter-fonts
+    - https://fonts.adobe.com/fonts/chandler-42
+      - https://mehallo.com/blog/
+      - https://www.myfonts.com/collections/chandler-42-font-steve-mehallo
+    - https://fonts.adobe.com/fonts/p22-typewriter
+- https://github.com/orhun/daktilo
 
 ## Commands
 
