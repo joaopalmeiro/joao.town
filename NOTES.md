@@ -116,6 +116,7 @@
   - https://www.dafont.com/theme.php?cat=113
   - https://typetype.org/blog/typewriter-fonts-from-retro-mechanics-to-digital-classics/
   - https://fonts.google.com/specimen/Special+Elite
+    - https://www.npmjs.com/package/@fontsource/special-elite
   - https://github.com/ctrlcctrlv/TT2020
   - https://fonts.adobe.com/discovery/typewriter-fonts
     - https://fonts.adobe.com/fonts/chandler-42
@@ -123,6 +124,7 @@
       - https://www.myfonts.com/collections/chandler-42-font-steve-mehallo
     - https://fonts.adobe.com/fonts/p22-typewriter
 - https://github.com/orhun/daktilo
+- https://github.com/vaughantype/wumpus-mono
 
 ## Commands
 
