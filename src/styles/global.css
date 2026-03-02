@@ -5,3 +5,7 @@
     font-style: inherit;
   }
 }
+
+@theme {
+  --font-sans: "Special Elite";
+}

@@ -125,6 +125,18 @@
     - https://fonts.adobe.com/fonts/p22-typewriter
 - https://github.com/orhun/daktilo
 - https://github.com/vaughantype/wumpus-mono
+- Using custom fonts:
+  - https://docs.astro.build/en/guides/fonts/#using-fontsource
+  - https://fontsource.org/docs/getting-started/preload
+  - https://fontsource.org/fonts/special-elite/install
+  - https://web.dev/articles/preload-critical-assets#how_to_implement_relpreload
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/preload
+  - https://tailwindcss.com/docs/font-family#customizing-your-theme
+- `<h2 class="font-medium">Profile</h2>`
+- `<hr aria-hidden="true" class="border-dashed" />`
+- `<p aria-hidden="true">---</p>`
+- https://stackoverflow.com/questions/614619/how-to-find-out-which-fonts-are-referenced-and-which-are-embedded-in-a-pdf-docum
+- https://tailwindcss.com/docs/letter-spacing
 
 ## Commands
 
@@ -138,6 +150,10 @@ npx playwright install chromium --with-deps
 
 ```bash
 verapdf João\ Palmeiro.pdf --format html
+```
+
+```bash
+pdffonts João\ Palmeiro.pdf
 ```
 
 ### Rancher Desktop
