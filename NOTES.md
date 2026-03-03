@@ -137,6 +137,11 @@
 - `<p aria-hidden="true">---</p>`
 - https://stackoverflow.com/questions/614619/how-to-find-out-which-fonts-are-referenced-and-which-are-embedded-in-a-pdf-docum
 - https://tailwindcss.com/docs/letter-spacing
+- Kaomoji:
+  - https://en.wikipedia.org/wiki/Kaomoji
+  - https://kaomoji.you/en/
+  - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/img_role#using_roleimg_to_confer_meaning_that_is_obscured_or_implied: `<div role="img" aria-label="Table flip"> <p>(╯°□°）╯︵ ┻━┻</p> </div>`
+  - `<span class="kaomoji" role="img" aria-label="happy Kirby">&lt;( ^.^ )&gt;</span>` + `.kaomoji { white-space: nowrap; font-family: monospace; }`
 
 ## Commands
 

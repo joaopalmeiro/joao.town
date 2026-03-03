@@ -2,12 +2,15 @@
 import Layout from "../layouts/Base.astro";
 import { shuffle } from "../utils";
 
-const id = `OS_${shuffle("JOÃO_PALMEIRO")}`;
+const id = `OS_${shuffle("JOÃOPALMEIRO")}`;
+const kaomoji = "<( ^.^ )>";
 ---
 
 <Layout title="João Palmeiro" description="My personal website.">
   <header>
     <h1 lang="pt-PT" class="text-lg tracking-wide">João Palmeiro</h1>
+
+    <span role="img" aria-label="Happy Kirby">{kaomoji}</span>
 
     <dl>
       <dt>Pronouns</dt>
