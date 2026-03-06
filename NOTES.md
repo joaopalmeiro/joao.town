@@ -149,6 +149,10 @@
   - https://docs.webcat.tech/developers/CSP.html
   - https://docs.webcat.tech/developers/examples.html
   - https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP
+- https://github.com/tailwindlabs/tailwindcss/pull/13395
+- https://tailwindcss.com/docs/max-width#responsive-design
+- https://v3.tailwindcss.com/docs/max-width#reading-width
+- `px-4 py-12 print:px-16`
 
 ## Commands
 
