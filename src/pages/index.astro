@@ -2,7 +2,7 @@
 import Layout from "../layouts/Base.astro";
 import { shuffle } from "../utils";
 
-const id = `OS_${shuffle("JOÃOPALMEIRO")}`;
+const id = `OS_${shuffle("JOÃOPALMEIRO")}_${new Date().toISOString().slice(0, 10).replaceAll("-", "")}`;
 const kaomoji = "<( ^.^ )>";
 ---
 
