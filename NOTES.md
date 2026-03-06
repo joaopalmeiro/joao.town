@@ -142,6 +142,13 @@
   - https://kaomoji.you/en/
   - https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/img_role#using_roleimg_to_confer_meaning_that_is_obscured_or_implied: `<div role="img" aria-label="Table flip"> <p>(╯°□°）╯︵ ┻━┻</p> </div>`
   - `<span class="kaomoji" role="img" aria-label="happy Kirby">&lt;( ^.^ )&gt;</span>` + `.kaomoji { white-space: nowrap; font-family: monospace; }`
+- WEBCAT:
+  - https://github.com/freedomofpress/webcat
+  - https://webcat.tech/
+  - https://docs.webcat.tech/site-operators/manual.html
+  - https://docs.webcat.tech/developers/CSP.html
+  - https://docs.webcat.tech/developers/examples.html
+  - https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP
 
 ## Commands
 
