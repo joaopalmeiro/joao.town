@@ -153,6 +153,10 @@
 - https://tailwindcss.com/docs/max-width#responsive-design
 - https://v3.tailwindcss.com/docs/max-width#reading-width
 - `px-4 py-12 print:px-16`
+- https://github.com/Kludex/cassetter
+- https://github.com/needle-tools/md-browse
+- https://github.com/blackboardsh/electrobun
+- https://frontendmasters.com/blog/what-is-safe-alignment-in-css/
 
 ## Commands
 

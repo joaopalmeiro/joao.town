@@ -3,14 +3,16 @@ import Layout from "../layouts/Base.astro";
 import { shuffle } from "../utils";
 
 const id = `OS_${shuffle("JOÃOPALMEIRO")}_${new Date().toISOString().slice(0, 10).replaceAll("-", "")}`;
-const kaomoji = "<( ^.^ )>";
+const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
 ---
 
 <Layout title="João Palmeiro" description="My personal website.">
   <header>
-    <h1 lang="pt-PT" class="text-lg tracking-wide">João Palmeiro</h1>
+    <div class="flex items-baseline gap-2">
+      <h1 lang="pt-PT" class="text-lg tracking-wide">João Palmeiro</h1>
 
-    <span role="img" aria-label="Happy Kirby">{kaomoji}</span>
+      <span role="img" aria-label={kaomoji.label}>{kaomoji.text}</span>
+    </div>
 
     <dl>
       <dt>Pronouns</dt>
@@ -54,16 +56,16 @@ const kaomoji = "<( ^.^ )>";
           <h4>Public highlights</h4>
           <ul>
             <li>
-              <a href="TODO"
+              <a href="https://arxiv.org/abs/2510.06071"
                 >Benchmark It Yourself (BIY): Preparing a Dataset and
-                Benchmarking AI Models for Scatterplot-Related Tasks paper</a
+                Benchmarking AI Models for Scatterplot-Related Tasks</a
               >
             </li>
             <li>
-              <a href="TODO"
+              <a
+                href="https://medium.com/feedzaitech/here-and-now-reusing-code-at-feedzai-with-jupyterlab-snippets-ff3b8d880e50"
                 >Here and Now: Reusing Code at Feedzai with JupyterLab Snippets
-                blog post</a
-              >
+              </a>
             </li>
           </ul>
         </section>
@@ -73,7 +75,7 @@ const kaomoji = "<( ^.^ )>";
         <header>
           <h3>Full-Stack Developer at Jungle</h3>
           <p>
-            <time datetime="TODO">Jan 2023</time> - <time datetime="TODO"
+            <time datetime="2023-01">Jan 2023</time> - <time datetime="2024-04"
               >Apr 2024</time
             >
           </p>
@@ -96,7 +98,7 @@ const kaomoji = "<( ^.^ )>";
         <header>
           <h3>Data Visualization Engineer at Feedzai</h3>
           <p>
-            <time datetime="TODO">Mar 2021</time> - <time datetime="TODO"
+            <time datetime="2021-03">Mar 2021</time> - <time datetime="2023-01"
               >Jan 2023</time
             >
           </p>
@@ -106,7 +108,19 @@ const kaomoji = "<( ^.^ )>";
           <h4>Public highlights</h4>
           <ul>
             <li>
-              <a href="TODO">TODO</a>
+              <a href="https://arxiv.org/abs/2204.14025"
+                >Data+Shift: Supporting visual investigation of data
+                distribution shifts by data scientists</a
+              >
+              <a
+                href="https://medium.com/feedzaitech/analyzing-data-drift-how-we-designed-visualizations-to-support-feature-investigation-e408d4de7e9f"
+                >Analyzing Data Drift: How We Designed Visualizations to Support
+                Feature Investigation</a
+              >
+              <a
+                href="https://medium.com/feedzaitech/styling-altair-charts-with-the-feedzai-altair-theme-f3dcd27b3b68"
+                >Styling Altair Charts with the feedzai-altair-theme</a
+              >
             </li>
           </ul>
         </section>
@@ -116,7 +130,7 @@ const kaomoji = "<( ^.^ )>";
         <header>
           <h3>Research Intern at Feedzai</h3>
           <p>
-            <time datetime="TODO">Nov 2019</time> - <time datetime="TODO"
+            <time datetime="2019-11">Nov 2019</time> - <time datetime="2021-02"
               >Feb 2021</time
             >
           </p>
@@ -126,7 +140,11 @@ const kaomoji = "<( ^.^ )>";
           <h4>Public highlights</h4>
           <ul>
             <li>
-              <a href="TODO">TODO</a>
+              <a
+                href="https://run.unl.pt/entities/publication/d2eae352-67e1-449b-9e2d-0cb714a0e898"
+                >MevaL: A Visual Machine Learning Model Evaluation Tool for
+                Financial Crime Detection</a
+              >
             </li>
           </ul>
         </section>
@@ -136,7 +154,7 @@ const kaomoji = "<( ^.^ )>";
         <header>
           <h3>Engineering Intern at Feedzai</h3>
           <p>
-            <time datetime="TODO">Jul 2019</time> - <time datetime="TODO"
+            <time datetime="2019-07">Jul 2019</time> - <time datetime="2019-08"
               >Aug 2019</time
             >
           </p>
@@ -146,7 +164,10 @@ const kaomoji = "<( ^.^ )>";
           <h4>Public highlights</h4>
           <ul>
             <li>
-              <a href="TODO">TODO</a>
+              <a
+                href="https://medium.com/feedzaitech/plotting-the-first-point-of-the-feedzai-charting-library-50f21b4a5e01"
+                >Plotting the first point of the Feedzai Charting Library.</a
+              >
             </li>
           </ul>
         </section>
