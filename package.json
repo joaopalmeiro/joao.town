@@ -13,6 +13,7 @@
   "scripts": {
     "build": "astro build",
     "dev": "astro dev",
+    "format": "prettier . --write",
     "preview": "astro preview --host --allowed-hosts host.rancher-desktop.internal",
     "test": "PW_TEST_CONNECT_WS_ENDPOINT=ws://127.0.0.1:3000/ playwright test"
   },
@@ -26,6 +27,9 @@
     "@playwright/test": "1.57.0",
     "@tailwindcss/vite": "4.2.0",
     "@types/d3-array": "3.2.2",
-    "@types/node": "24.12.0"
+    "@types/node": "24.12.0",
+    "prettier": "3.8.1",
+    "prettier-plugin-astro": "0.14.1",
+    "prettier-plugin-tailwindcss": "0.7.2"
   }
 }

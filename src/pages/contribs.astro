@@ -31,7 +31,7 @@ const data = Data.parse(rawData);
   description="My open source contributions."
 >
   <header>
-    <div class="flex gap-2 justify-between">
+    <div class="flex justify-between gap-2">
       <h1 lang="pt-PT">
         <span aria-hidden="true">~ </span>Open source contributions
       </h1>
@@ -52,13 +52,13 @@ const data = Data.parse(rawData);
         {
           data.map((datum) => (
             <tr class="border-b-2 border-gray-900">
-              <th scope="row" class="p-2 text-left ">
+              <th scope="row" class="p-2 text-left">
                 <a href={datum.url}>{datum.repo}</a>
               </th>
               <td class="p-2 text-left">
                 <a href={datum.mr_pr}>{datum.title}</a>
               </td>
-              <td class="p-2 text-left">{datum.merged_at.getFullYear()}</td>
+              <td class="p-2 text-left">{datum.merged_at.getUTCFullYear()}</td>
             </tr>
           ))
         }
@@ -67,6 +67,8 @@ const data = Data.parse(rawData);
   </main>
 
   <footer>
-    <p class="font-mono text-sm text-gray-400">{id}</p>
+    <p class="font-mono text-sm text-gray-400 selection:text-[#00ff00]!">
+      {id}
+    </p>
   </footer>
 </Layout>
