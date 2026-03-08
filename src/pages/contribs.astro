@@ -2,9 +2,7 @@
 import { z } from "astro/zod";
 
 import Layout from "../layouts/Base.astro";
-import { shuffle } from "../utils";
 
-const id = `OS_${shuffle("JOÃOPALMEIRO")}_${new Date().toISOString().slice(0, 10).replaceAll("-", "")}`;
 const kaomoji = { text: "<(^_^<)", label: "Joyful Kirby" };
 
 const repo = encodeURIComponent("joaommpalmeiro/os-contribs");
@@ -29,7 +27,7 @@ const data = Data.parse(rawData);
 <Layout title="Contribs | João Palmeiro" description="My open source contributions.">
   <header>
     <div class="flex justify-between gap-2">
-      <h1 lang="pt-PT">
+      <h1>
         <span aria-hidden="true">~ </span>Open source contributions
       </h1>
       <span role="img" aria-label={kaomoji.label}>{kaomoji.text}</span>
@@ -62,10 +60,4 @@ const data = Data.parse(rawData);
       </tbody>
     </table>
   </main>
-
-  <footer>
-    <p class="font-mono text-sm text-gray-400 selection:text-[#00ff00]!">
-      {id}
-    </p>
-  </footer>
 </Layout>

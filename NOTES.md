@@ -173,6 +173,7 @@
 - https://docs.astro.build/en/editor-setup/#prettier
 - `~>`, `->`, `<->`
 - `<li class="indent-4">`
+- `<body class="px-6 py-12 text-base text-gray-900 selection:bg-gray-900 selection:text-white print:p-0 print:text-sm">`
 
 ## Commands
 
@@ -216,4 +217,18 @@ docker pull mcr.microsoft.com/playwright:v1.57.0-noble
 <body class="mx-auto flex max-w-prose flex-col gap-8 py-12 text-gray-900 selection:bg-gray-900 selection:text-white">
   <slot />
 </body>
+```
+
+```html
+<footer><p class="font-mono text-sm text-gray-400 selection:text-[#00ff00]!">{id}</p></footer>
+```
+
+```ts
+import { shuffle as d3Shuffle } from "d3-array";
+
+export function shuffle(str: string): string {
+  return d3Shuffle(str.split("")).join("");
+}
+
+const id = `OS_${shuffle("JOÃOPALMEIRO")}_${new Date().toISOString().slice(0, 10).replaceAll("-", "")}`;
 ```

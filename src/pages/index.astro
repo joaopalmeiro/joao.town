@@ -1,8 +1,6 @@
 ---
 import Layout from "../layouts/Base.astro";
-import { shuffle } from "../utils";
 
-const id = `OS_${shuffle("JOÃOPALMEIRO")}_${new Date().toISOString().slice(0, 10).replaceAll("-", "")}`;
 const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
 ---
 
@@ -226,35 +224,29 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
     </article>
   </main>
 
-  <footer class="flex flex-col gap-8">
-    <section>
-      <h2><span aria-hidden="true">~ </span>Find out more</h2>
+  <footer>
+    <h2><span aria-hidden="true">~ </span>Find out more</h2>
 
-      <dl>
-        <dt>Full CV</dt>
-        <dd>
-          <a href="https://www.linkedin.com/in/joaopalmeiro/">LinkedIn (joaopalmeiro)</a>
-        </dd>
-        <dd><a href="/contribs">Open source contributions</a></dd>
+    <dl>
+      <dt>Full CV:</dt>
+      <dd>
+        <a href="https://www.linkedin.com/in/joaopalmeiro/">LinkedIn (joaopalmeiro)</a>
+      </dd>
+      <dd><a href="/contribs">Open source contributions</a></dd>
 
-        <dt>Projects</dt>
-        <dd>
-          <a href="https://github.com/joaopalmeiro">GitHub (joaopalmeiro)</a>
-        </dd>
-        <dd>
-          <a href="https://gitlab.com/joaommpalmeiro">GitLab (joaommpalmeiro)</a>
-        </dd>
-        <dd>
-          <a href="https://codeberg.org/joaopalmeiro">Codeberg (joaopalmeiro)</a>
-        </dd>
-        <dd>
-          <a href="https://huggingface.co/joaompalmeiro">Hugging Face (joaompalmeiro)</a>
-        </dd>
-      </dl>
-    </section>
-
-    <p class="font-mono text-sm text-gray-400 selection:text-[#00ff00]!">
-      {id}
-    </p>
+      <dt>Projects:</dt>
+      <dd>
+        <a href="https://github.com/joaopalmeiro">GitHub (joaopalmeiro)</a>
+      </dd>
+      <dd>
+        <a href="https://gitlab.com/joaommpalmeiro">GitLab (joaommpalmeiro)</a>
+      </dd>
+      <dd>
+        <a href="https://codeberg.org/joaopalmeiro">Codeberg (joaopalmeiro)</a>
+      </dd>
+      <dd>
+        <a href="https://huggingface.co/joaompalmeiro">Hugging Face (joaompalmeiro)</a>
+      </dd>
+    </dl>
   </footer>
 </Layout>
