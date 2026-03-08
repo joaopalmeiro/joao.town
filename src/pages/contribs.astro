@@ -22,16 +22,25 @@ const Data = z.array(Datum);
 const response = await fetch(url);
 const rawData = await response.json();
 const data = Data.parse(rawData);
+
+const totalContribs = data.length;
 ---
 
 <Layout title="Contribs | João Palmeiro" description="My open source contributions.">
   <header>
-    <div class="flex justify-between gap-2">
+    <div class="flex justify-between">
       <h1>
         <span aria-hidden="true">~ </span>Open source contributions
       </h1>
       <span role="img" aria-label={kaomoji.label}>{kaomoji.text}</span>
     </div>
+
+    <dl>
+      <div class="flex gap-x-1">
+        <dt>Total:</dt>
+        <dd>{totalContribs}</dd>
+      </div>
+    </dl>
   </header>
 
   <main>
