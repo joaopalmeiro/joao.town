@@ -8,8 +8,7 @@ export default defineConfig({
   //     - https://github.com/microsoft/playwright/blob/v1.57.0/packages/playwright/src/worker/testInfo.ts#L582
   //   - https://github.com/microsoft/playwright/blob/v1.57.0/packages/playwright/src/index.ts#L235
   // - https://playwright.dev/docs/api/class-testconfig#test-config-snapshot-path-template
-  snapshotPathTemplate:
-    "{snapshotDir}/{testFileDir}/{testFileName}-snapshots/{arg}{-projectName}-linux{ext}",
+  snapshotPathTemplate: "{snapshotDir}/{testFileDir}/{testFileName}-snapshots/{arg}{-projectName}-linux{ext}",
 
   use: {
     baseURL: "http://host.rancher-desktop.internal:4321",

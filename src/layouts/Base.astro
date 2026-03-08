@@ -17,9 +17,7 @@ const { title, description } = Astro.props;
     <meta name="description" content={description} />
   </head>
 
-  <body
-    class="px-6 py-12 text-base text-gray-900 selection:bg-gray-900 selection:text-white print:p-0 print:text-sm"
-  >
+  <body class="px-6 py-12 text-base text-gray-900 selection:bg-gray-900 selection:text-white print:p-0 print:text-sm">
     <div class="mx-auto flex max-w-prose flex-col gap-8 print:max-w-none">
       <slot />
     </div>

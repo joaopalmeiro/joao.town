@@ -172,6 +172,7 @@
 - `<dt class="after:content-[attr(data-after)]" data-after="&colon;&nbsp;">Pronouns</dt>`
 - https://docs.astro.build/en/editor-setup/#prettier
 - `~>`, `->`, `<->`
+- `<li class="indent-4">`
 
 ## Commands
 
@@ -212,9 +213,7 @@ docker pull mcr.microsoft.com/playwright:v1.57.0-noble
 ## Snippets
 
 ```html
-<body
-  class="mx-auto flex max-w-prose flex-col gap-8 py-12 text-gray-900 selection:bg-gray-900 selection:text-white"
->
+<body class="mx-auto flex max-w-prose flex-col gap-8 py-12 text-gray-900 selection:bg-gray-900 selection:text-white">
   <slot />
 </body>
 ```
