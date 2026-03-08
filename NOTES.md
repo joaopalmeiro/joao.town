@@ -157,6 +157,7 @@
 - https://github.com/needle-tools/md-browse
 - https://github.com/blackboardsh/electrobun
 - https://frontendmasters.com/blog/what-is-safe-alignment-in-css/
+- https://oxc.rs/docs/guide/usage/formatter/sorting.html#sort-tailwind-css-classes
 
 ## Commands
 
