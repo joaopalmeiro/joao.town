@@ -176,6 +176,10 @@ verapdf João\ Palmeiro.pdf --format html
 pdffonts João\ Palmeiro.pdf
 ```
 
+```bash
+npm install -D "@types/node@$(cat .nvmrc | cut -d . -f 1)"
+```
+
 ### Rancher Desktop
 
 ```bash
