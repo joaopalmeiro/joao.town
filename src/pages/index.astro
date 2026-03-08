@@ -14,17 +14,17 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
     </div>
 
     <dl>
-      <div class="flex gap-1">
+      <div class="flex gap-x-1">
         <dt>Pronouns:</dt>
         <dd>he/him</dd>
       </div>
 
-      <div class="flex gap-1">
+      <div class="flex gap-x-1">
         <dt>Location:</dt>
         <dd>Lisbon, Portugal (UTC+00:00 or +01:00)</dd>
       </div>
 
-      <div class="flex gap-1">
+      <div class="flex gap-x-1">
         <dt>Contact:</dt>
         <dd>
           <address>
@@ -65,11 +65,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
           <h4>Public highlights:</h4>
           <ul>
             <li>
-              <a
-                href="https://arxiv.org/abs/2510.06071"
-                class="before:content-[attr(data-before)] after:content-[attr(data-after)]"
-                data-after=" ~>"
-                data-before="\\ "
+              <a href="https://arxiv.org/abs/2510.06071" class="after:content-[attr(data-after)]" data-after=" ~>"
                 >Benchmark It Yourself (BIY): Preparing a Dataset and Benchmarking AI Models for Scatterplot-Related
                 Tasks</a
               >
@@ -77,9 +73,8 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
             <li>
               <a
                 href="https://medium.com/feedzaitech/here-and-now-reusing-code-at-feedzai-with-jupyterlab-snippets-ff3b8d880e50"
-                class="before:content-[attr(data-before)] after:content-[attr(data-after)]"
+                class="after:content-[attr(data-after)]"
                 data-after=" ~>"
-                data-before="/ "
                 >Here and Now: Reusing Code at Feedzai with JupyterLab Snippets
               </a>
             </li>
@@ -137,7 +132,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
             <li>
               <a
                 href="https://arxiv.org/abs/2204.14025"
-                class="before:content-[attr(data-before)] after:content-[attr(data-after)]"
+                class="after:content-[attr(data-after)]"
                 data-after=" ~>"
                 data-before="\\ "
                 >Data+Shift: Supporting visual investigation of data distribution shifts by data scientists</a
@@ -146,16 +141,15 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
             <li>
               <a
                 href="https://medium.com/feedzaitech/analyzing-data-drift-how-we-designed-visualizations-to-support-feature-investigation-e408d4de7e9f"
-                class="before:content-[attr(data-before)] after:content-[attr(data-after)]"
+                class="after:content-[attr(data-after)]"
                 data-after=" ~>"
-                data-before="/ "
                 >Analyzing Data Drift: How We Designed Visualizations to Support Feature Investigation</a
               >
             </li>
             <li>
               <a
                 href="https://medium.com/feedzaitech/styling-altair-charts-with-the-feedzai-altair-theme-f3dcd27b3b68"
-                class="before:content-[attr(data-before)] after:content-[attr(data-after)]"
+                class="after:content-[attr(data-after)]"
                 data-after=" ~>"
                 data-before="\\ ">Styling Altair Charts with the feedzai-altair-theme</a
               >
@@ -228,25 +222,31 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
     <h2><span aria-hidden="true">~ </span>Find out more</h2>
 
     <dl>
-      <dt>Full CV:</dt>
-      <dd>
-        <a href="https://www.linkedin.com/in/joaopalmeiro/">LinkedIn (joaopalmeiro)</a>
-      </dd>
-      <dd><a href="/contribs">Open source contributions</a></dd>
+      <div class="flex flex-wrap gap-x-1">
+        <dt>Full CV:</dt>
+        <dd>
+          <a href="https://www.linkedin.com/in/joaopalmeiro/"
+            >LinkedIn (joaopalmeiro)<span aria-hidden="true">,</span></a
+          >
+        </dd>
+        <dd><a href="/contribs">Open source contributions</a></dd>
+      </div>
 
-      <dt>Projects:</dt>
-      <dd>
-        <a href="https://github.com/joaopalmeiro">GitHub (joaopalmeiro)</a>
-      </dd>
-      <dd>
-        <a href="https://gitlab.com/joaommpalmeiro">GitLab (joaommpalmeiro)</a>
-      </dd>
-      <dd>
-        <a href="https://codeberg.org/joaopalmeiro">Codeberg (joaopalmeiro)</a>
-      </dd>
-      <dd>
-        <a href="https://huggingface.co/joaompalmeiro">Hugging Face (joaompalmeiro)</a>
-      </dd>
+      <div class="flex flex-wrap gap-x-1">
+        <dt>Projects:</dt>
+        <dd>
+          <a href="https://github.com/joaopalmeiro">GitHub (joaopalmeiro)<span aria-hidden="true">,</span></a>
+        </dd>
+        <dd>
+          <a href="https://gitlab.com/joaommpalmeiro">GitLab (joaommpalmeiro)<span aria-hidden="true">,</span></a>
+        </dd>
+        <dd>
+          <a href="https://codeberg.org/joaopalmeiro">Codeberg (joaopalmeiro)<span aria-hidden="true">,</span></a>
+        </dd>
+        <dd>
+          <a href="https://huggingface.co/joaompalmeiro">Hugging Face (joaompalmeiro)</a>
+        </dd>
+      </div>
     </dl>
   </footer>
 </Layout>

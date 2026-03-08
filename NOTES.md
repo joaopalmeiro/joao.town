@@ -232,3 +232,26 @@ export function shuffle(str: string): string {
 
 const id = `OS_${shuffle("JOÃOPALMEIRO")}_${new Date().toISOString().slice(0, 10).replaceAll("-", "")}`;
 ```
+
+```html
+<ul>
+  <li>
+    <a
+      href="https://arxiv.org/abs/2510.06071"
+      class="before:content-[attr(data-before)] after:content-[attr(data-after)]"
+      data-after=" ~>"
+      data-before="\\ "
+      >Benchmark It Yourself (BIY): Preparing a Dataset and Benchmarking AI Models for Scatterplot-Related Tasks</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://medium.com/feedzaitech/here-and-now-reusing-code-at-feedzai-with-jupyterlab-snippets-ff3b8d880e50"
+      class="before:content-[attr(data-before)] after:content-[attr(data-after)]"
+      data-after=" ~>"
+      data-before="/ "
+      >Here and Now: Reusing Code at Feedzai with JupyterLab Snippets
+    </a>
+  </li>
+</ul>
+```
