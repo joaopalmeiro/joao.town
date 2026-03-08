@@ -24,6 +24,7 @@ const rawData = await response.json();
 const data = Data.parse(rawData);
 
 const totalContribs = data.length;
+const totalProjects = new Set(data.map((datum) => datum.repo)).size;
 ---
 
 <Layout title="Contribs | João Palmeiro" description="My open source contributions.">
@@ -39,6 +40,11 @@ const totalContribs = data.length;
       <div class="flex gap-x-1">
         <dt>Total:</dt>
         <dd>{totalContribs}</dd>
+      </div>
+
+      <div class="flex gap-x-1">
+        <dt>Projects:</dt>
+        <dd>{totalProjects}</dd>
       </div>
     </dl>
   </header>
