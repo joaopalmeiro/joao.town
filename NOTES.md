@@ -158,6 +158,14 @@
 - https://github.com/blackboardsh/electrobun
 - https://frontendmasters.com/blog/what-is-safe-alignment-in-css/
 - https://oxc.rs/docs/guide/usage/formatter/sorting.html#sort-tailwind-css-classes
+- https://t4stack.com/
+  - https://github.com/timothymiller/t4-app
+  - https://github.com/gvergnaud/ts-pattern
+- https://github.com/aidenybai/react-scan
+- https://github.com/DioxusLabs/dioxus
+- `<h2 class="text-lg tracking-wide">Profile</h2>`
+- `<dd>Lisbon, Portugal (UTC+00:00 or UTC+01:00)</dd>`
+- https://tailwindcss.com/docs/text-indent
 
 ## Commands
 

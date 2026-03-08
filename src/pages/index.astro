@@ -8,9 +8,10 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
 
 <Layout title="João Palmeiro" description="My personal website.">
   <header>
-    <div class="flex items-baseline gap-2">
-      <h1 lang="pt-PT" class="text-lg tracking-wide">João Palmeiro</h1>
-
+    <div class="flex gap-2 justify-between">
+      <h1 lang="pt-PT">
+        <span aria-hidden="true">~ </span>João Palmeiro
+      </h1>
       <span role="img" aria-label={kaomoji.label}>{kaomoji.text}</span>
     </div>
 
@@ -19,7 +20,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
       <dd>he/him</dd>
 
       <dt>Location</dt>
-      <dd>Lisbon, Portugal (UTC+00:00 or UTC+01:00)</dd>
+      <dd>Lisbon, Portugal (UTC+00:00 or +01:00)</dd>
 
       <dt>Contact</dt>
       <dd>
@@ -30,9 +31,9 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
     </dl>
   </header>
 
-  <main>
+  <main class="flex flex-col gap-8">
     <article>
-      <h2 class="text-lg tracking-wide">Profile</h2>
+      <h2><span aria-hidden="true">~ </span>Profile</h2>
 
       <p>
         A mix of data visualization practitioner, researcher, and software
@@ -44,7 +45,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
     </article>
 
     <article>
-      <h2 class="text-lg tracking-wide">Experience</h2>
+      <h2><span aria-hidden="true">~ </span>Experience</h2>
 
       <article>
         <header>
@@ -55,13 +56,13 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
         <section>
           <h4>Public highlights</h4>
           <ul>
-            <li>
+            <li class="indent-4">
               <a href="https://arxiv.org/abs/2510.06071"
                 >Benchmark It Yourself (BIY): Preparing a Dataset and
                 Benchmarking AI Models for Scatterplot-Related Tasks</a
               >
             </li>
-            <li>
+            <li class="indent-4">
               <a
                 href="https://medium.com/feedzaitech/here-and-now-reusing-code-at-feedzai-with-jupyterlab-snippets-ff3b8d880e50"
                 >Here and Now: Reusing Code at Feedzai with JupyterLab Snippets
@@ -84,7 +85,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
         <section>
           <h4>Public highlights</h4>
           <ul>
-            <li>
+            <li class="indent-4">
               <a
                 href="https://www.linkedin.com/posts/jungle.ai_new-year-new-canopy-activity-7155942462610419712-HzH-/"
                 >Parallel Coordinates module</a
@@ -107,7 +108,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
         <section>
           <h4>Public highlights</h4>
           <ul>
-            <li>
+            <li class="indent-4">
               <a href="https://arxiv.org/abs/2204.14025"
                 >Data+Shift: Supporting visual investigation of data
                 distribution shifts by data scientists</a
@@ -139,7 +140,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
         <section>
           <h4>Public highlights</h4>
           <ul>
-            <li>
+            <li class="indent-4">
               <a
                 href="https://run.unl.pt/entities/publication/d2eae352-67e1-449b-9e2d-0cb714a0e898"
                 >MevaL: A Visual Machine Learning Model Evaluation Tool for
@@ -163,7 +164,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
         <section>
           <h4>Public highlights</h4>
           <ul>
-            <li>
+            <li class="indent-4">
               <a
                 href="https://medium.com/feedzaitech/plotting-the-first-point-of-the-feedzai-charting-library-50f21b4a5e01"
                 >Plotting the first point of the Feedzai Charting Library.</a
@@ -177,7 +178,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
 
   <footer>
     <section>
-      <h2 class="text-lg tracking-wide">More about me</h2>
+      <h2><span aria-hidden="true">~ </span>More about me</h2>
 
       <dl>
         <dt>Full CV</dt>
@@ -208,6 +209,6 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
       </dl>
     </section>
 
-    <p class="font-mono">{id}</p>
+    <p class="font-mono text-sm text-gray-400">{id}</p>
   </footer>
 </Layout>
