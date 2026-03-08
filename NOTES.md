@@ -178,6 +178,10 @@
   - https://docs.astro.build/en/guides/integrations-guide/cloudflare/: "If you're using Astro as a static site builder, you don't need an adapter."
   - https://developers.cloudflare.com/workers/wrangler/configuration/
   - "- Expected "name" to be of type string, alphanumeric and lowercase with dashes only but got "joao.town"."
+- .town:
+  - https://icannwiki.org/.town
+  - https://icannwiki.org/Identity_Digital
+  - https://www.identity.digital/
 
 ## Commands
 
