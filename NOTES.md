@@ -176,6 +176,7 @@
 - `<body class="px-6 py-12 text-base text-gray-900 selection:bg-gray-900 selection:text-white print:p-0 print:text-sm">`
 - https://docs.astro.build/en/guides/deploy/cloudflare/#cloudflare-workers
   - https://docs.astro.build/en/guides/integrations-guide/cloudflare/: "If you're using Astro as a static site builder, you don't need an adapter."
+  - https://developers.cloudflare.com/workers/wrangler/configuration/
 
 ## Commands
 

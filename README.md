@@ -35,3 +35,7 @@ npm run test
 ```bash
 npm run build
 ```
+
+```bash
+npm run deploy
+```

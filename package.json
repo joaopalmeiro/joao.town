@@ -12,6 +12,7 @@
   "type": "module",
   "scripts": {
     "build": "astro build",
+    "deploy": "wrangler deploy",
     "dev": "astro dev",
     "format": "prettier . --write",
     "preview": "astro preview --host --allowed-hosts host.rancher-desktop.internal",
