@@ -4,6 +4,10 @@
   address {
     font-style: inherit;
   }
+
+  th {
+    font-weight: inherit;
+  }
 }
 
 @theme {

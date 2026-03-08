@@ -166,6 +166,8 @@
 - `<h2 class="text-lg tracking-wide">Profile</h2>`
 - `<dd>Lisbon, Portugal (UTC+00:00 or UTC+01:00)</dd>`
 - https://tailwindcss.com/docs/text-indent
+- https://ui.shadcn.com/docs/components/radix/data-table
+- https://typecast.munk.org/2014/12/31/corona-portables-updated-at-the-typewriter-database/
 
 ## Commands
 
