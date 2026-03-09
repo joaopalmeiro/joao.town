@@ -4,7 +4,7 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
   server: {
-    open: true,
+    open: false,
   },
   devToolbar: {
     enabled: false,

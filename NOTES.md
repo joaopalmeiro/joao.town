@@ -184,6 +184,20 @@
   - https://icannwiki.org/Identity_Digital
   - https://www.identity.digital/
 - https://www.namecheap.com/support/knowledgebase/article.aspx/9717/2232/what-is-dnssec/
+- https://openpencil.dev/
+  - https://github.com/open-pencil/open-pencil
+  - https://github.com/ZSeven-W/openpencil
+    - https://github.com/ZSeven-W/openpencil/issues/20
+  - `brew install open-pencil/tap/open-pencil`
+  - https://github.com/open-pencil/open-pencil/releases
+  - https://openpencil.dev/user-guide/
+  - https://app.openpencil.dev/
+- https://arcade.pirillo.com/fontcrafter.html
+- https://polypane.app/
+- https://github.com/responsively-org/responsively-app
+  - https://responsively.app/
+  - `brew install --cask responsively`
+  - https://responsively.app/sponsor
 
 ## Commands
 
@@ -264,4 +278,15 @@ const id = `OS_${shuffle("JOÃOPALMEIRO")}_${new Date().toISOString().slice(0, 1
     </a>
   </li>
 </ul>
+```
+
+```html
+<header class="flex flex-wrap">
+  <h3>
+    <span aria-hidden="true">~~ </span>Full-Stack Developer at Jungle<span aria-hidden="true" class="whitespace-pre">
+      {" "}/{" "}
+    </span>
+  </h3>
+  <p><time datetime="2023-01">Jan 2023</time> - <time datetime="2024-04">Apr 2024</time></p>
+</header>
 ```
