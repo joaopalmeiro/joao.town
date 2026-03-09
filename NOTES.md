@@ -198,6 +198,27 @@
   - https://responsively.app/
   - `brew install --cask responsively`
   - https://responsively.app/sponsor
+- https://www.youtube.com/watch?v=HD5TWE8xD7o
+  - https://github.com/cyxzdev/Uncodixfy
+  - https://developers.openai.com/api/docs/guides/prompt-guidance
+  - https://openai.com/index/introducing-gpt-5-4/:
+    - "In the API, GPT‑5.4 is priced higher per token than GPT‑5.2 to reflect its improved capabilities, while its greater token efficiency helps reduce the total number of tokens required for many tasks."
+    - "It supports up to 1M tokens of context (...)"
+    - https://github.com/openai/skills/tree/main/skills/.curated/spreadsheet
+    - https://chatgpt.com/apps/spreadsheets/: "ChatGPT for Excel"
+    - "We're also improving visual understanding for dense, high-resolution images where full fidelity matters. Starting with GPT‑5.4, we're introducing an original image input detail⁠(opens in a new window) level which supports full-fidelity perception up to 10.24M total pixels or 6000-pixel maximum dimension, whichever is lower;"
+    - `<a href="https://developers.openai.com/api/docs/guides/images-vision/#specify-image-input-detail-level"><span>input detail</span>⁠<span class="sr-only">(opens in a new window)</span></a>`
+    - https://github.com/openai/skills/tree/main/skills/.curated/playwright-interactive
+  - https://github.com/T3-Content/skatebench
+    - https://skatebench.t3.gg/
+  - https://developers.openai.com/api/docs/models/gpt-5.4: "For models with a 1.05M context window (GPT-5.4 and GPT-5.4 pro), prompts with >272K input tokens are priced at 2x input and 1.5x output for the full session for standard, batch, and flex."
+  - https://labs.scale.com/leaderboard/swe_bench_pro_public
+  - https://developers.openai.com/api/docs/guides/tools-computer-use/#option-3-use-a-code-execution-harness
+    - https://github.com/asweigart/pyautogui
+- https://github.com/m5stack/uiflow-micropython
+  - https://shop.m5stack.com/products/m5stack-esp32-core-ink-development-kit1-54-elnk-display
+  - https://mauser.pt/096-9311/m5stack-coreink-modulo-ecra-e-ink-1-54-para-m5stack
+  - https://github.com/m5stack
 
 ## Commands
 
