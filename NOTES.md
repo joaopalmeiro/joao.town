@@ -15,6 +15,7 @@
     - https://zod.dev/api
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/address
   - "The <address> element can only be used to represent the contact information for its nearest <article> or <body> element ancestor."
+  - https://cauldron.dequelabs.com/components/Address: "A utility component to identify contact information or a physical address."
 - https://github.com/readme/guides/first-oss-contribution: "open source contribution"
 - https://docs.gitlab.com/api/repository_files/
 - https://docs.rancherdesktop.io/ui/preferences/application/general/#administrative-access: "(...) the socket is instead created at `~/.rd/docker.sock` and is accessible via the `rancher-desktop` Docker context."
