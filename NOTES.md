@@ -215,10 +215,14 @@
   - https://labs.scale.com/leaderboard/swe_bench_pro_public
   - https://developers.openai.com/api/docs/guides/tools-computer-use/#option-3-use-a-code-execution-harness
     - https://github.com/asweigart/pyautogui
+  - https://stockfishchess.org/
 - https://github.com/m5stack/uiflow-micropython
   - https://shop.m5stack.com/products/m5stack-esp32-core-ink-development-kit1-54-elnk-display
   - https://mauser.pt/096-9311/m5stack-coreink-modulo-ecra-e-ink-1-54-para-m5stack
   - https://github.com/m5stack
+- ZADU: A Python Library for Evaluating the Reliability of Dimensionality Reduction Embeddings
+  - https://arxiv.org/abs/2308.00282
+  - https://github.com/hj-n/zadu
 
 ## Commands
 
