@@ -1,3 +1,4 @@
 Contact: mailto:joaopalmeiro@proton.me
 Expires: 2027-02-25T00:00:00.000Z
 Preferred-Languages: pt, en
+Canonical: https://joao.town/.well-known/security.txt
