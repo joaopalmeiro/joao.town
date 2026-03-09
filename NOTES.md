@@ -182,6 +182,7 @@
   - https://icannwiki.org/.town
   - https://icannwiki.org/Identity_Digital
   - https://www.identity.digital/
+- https://www.namecheap.com/support/knowledgebase/article.aspx/9717/2232/what-is-dnssec/
 
 ## Commands
 

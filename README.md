@@ -1,6 +1,6 @@
 # joao.town
 
-My personal website.
+My [personal website](https://joao.town/).
 
 ## Development
 
