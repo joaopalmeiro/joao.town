@@ -223,6 +223,14 @@
 - ZADU: A Python Library for Evaluating the Reliability of Dimensionality Reduction Embeddings
   - https://arxiv.org/abs/2308.00282
   - https://github.com/hj-n/zadu
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/table-layout
+  - "`auto`: The automatic table layout algorithm is used. The widths of the table and its cells are adjusted to fit the content. Most browsers use this algorithm by default."
+  - "`fixed`: The fixed table layout algorithm is used. When using this keyword, the table's width _needs_ to be specified explicitly using the `width` property. If the value of the `width` property is set to `auto` or is not specified, the browser uses the automatic table layout algorithm, in which case the `fixed` value has no effect."
+- https://catalyst.tailwindui.com/docs/table#responsive-tables
+- `<table class="table-fixed w-full">`
+- https://daisyui.com/components/table/
+- https://www.hyperui.dev/components/application/tables
+  - `<th class="px-3 py-2 whitespace-nowrap">Name</th>`
 
 ## Commands
 
@@ -314,4 +322,58 @@ const id = `OS_${shuffle("JOÃOPALMEIRO")}_${new Date().toISOString().slice(0, 1
   </h3>
   <p><time datetime="2023-01">Jan 2023</time> - <time datetime="2024-04">Apr 2024</time></p>
 </header>
+```
+
+- https://www.hyperui.dev/components/application/tables
+
+```html
+<div class="overflow-x-auto rounded border border-gray-300 shadow-sm">
+  <table class="min-w-full divide-y-2 divide-gray-200">
+    <thead class="ltr:text-left rtl:text-right">
+      <tr class="*:font-medium *:text-gray-900">
+        <th class="px-3 py-2 whitespace-nowrap">Name</th>
+        <th class="px-3 py-2 whitespace-nowrap">DoB</th>
+        <th class="px-3 py-2 whitespace-nowrap">Role</th>
+        <th class="px-3 py-2 whitespace-nowrap">Salary</th>
+      </tr>
+    </thead>
+
+    <tbody class="divide-y divide-gray-200">
+      <tr class="*:text-gray-900 *:first:font-medium">
+        <td class="px-3 py-2 whitespace-nowrap">Nandor the Relentless</td>
+        <td class="px-3 py-2 whitespace-nowrap">04/06/1262</td>
+        <td class="px-3 py-2 whitespace-nowrap">Vampire Warrior</td>
+        <td class="px-3 py-2 whitespace-nowrap">$0</td>
+      </tr>
+
+      <tr class="*:text-gray-900 *:first:font-medium">
+        <td class="px-3 py-2 whitespace-nowrap">Laszlo Cravensworth</td>
+        <td class="px-3 py-2 whitespace-nowrap">19/10/1678</td>
+        <td class="px-3 py-2 whitespace-nowrap">Vampire Gentleman</td>
+        <td class="px-3 py-2 whitespace-nowrap">$0</td>
+      </tr>
+
+      <tr class="*:text-gray-900 *:first:font-medium">
+        <td class="px-3 py-2 whitespace-nowrap">Nadja</td>
+        <td class="px-3 py-2 whitespace-nowrap">15/03/1593</td>
+        <td class="px-3 py-2 whitespace-nowrap">Vampire Seductress</td>
+        <td class="px-3 py-2 whitespace-nowrap">$0</td>
+      </tr>
+
+      <tr class="*:text-gray-900 *:first:font-medium">
+        <td class="px-3 py-2 whitespace-nowrap">Colin Robinson</td>
+        <td class="px-3 py-2 whitespace-nowrap">01/09/1971</td>
+        <td class="px-3 py-2 whitespace-nowrap">Energy Vampire</td>
+        <td class="px-3 py-2 whitespace-nowrap">$53,000</td>
+      </tr>
+
+      <tr class="*:text-gray-900 *:first:font-medium">
+        <td class="px-3 py-2 whitespace-nowrap">Guillermo de la Cruz</td>
+        <td class="px-3 py-2 whitespace-nowrap">18/11/1991</td>
+        <td class="px-3 py-2 whitespace-nowrap">Familiar/Vampire Hunter</td>
+        <td class="px-3 py-2 whitespace-nowrap">$0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 ```

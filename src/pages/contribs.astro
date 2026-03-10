@@ -50,29 +50,31 @@ const totalProjects = new Set(data.map((datum) => datum.repo)).size;
   </header>
 
   <main>
-    <table class="border-2 border-gray-900">
-      <thead>
-        <tr class="border-b-2 border-gray-900">
-          <th scope="col" class="p-2 text-left">Repo</th>
-          <th scope="col" class="p-2 text-left">MR/PR</th>
-          <th scope="col" class="p-2 text-left">Year</th>
-        </tr>
-      </thead>
-      <tbody>
-        {
-          data.map((datum) => (
-            <tr class="border-b-2 border-gray-900">
-              <th scope="row" class="p-2 text-left">
-                <a href={datum.url}>{datum.repo}</a>
-              </th>
-              <td class="p-2 text-left">
-                <a href={datum.mr_pr}>{datum.title}</a>
-              </td>
-              <td class="p-2 text-left">{datum.merged_at.getUTCFullYear()}</td>
-            </tr>
-          ))
-        }
-      </tbody>
-    </table>
+    <div class="overflow-x-auto">
+      <table class="border-2 border-gray-900">
+        <thead>
+          <tr class="border-b-2 border-gray-900">
+            <th scope="col" class="p-2 text-left">Repo</th>
+            <th scope="col" class="p-2 text-left">MR/PR</th>
+            <th scope="col" class="p-2 text-left">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            data.map((datum) => (
+              <tr class="border-b-2 border-gray-900">
+                <th scope="row" class="p-2 text-left">
+                  <a href={datum.url}>{datum.repo}</a>
+                </th>
+                <td class="p-2 text-left">
+                  <a href={datum.mr_pr}>{datum.title}</a>
+                </td>
+                <td class="p-2 text-left">{datum.merged_at.getUTCFullYear()}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
   </main>
 </Layout>
