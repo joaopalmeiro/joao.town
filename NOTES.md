@@ -231,6 +231,7 @@
 - https://daisyui.com/components/table/
 - https://www.hyperui.dev/components/application/tables
   - `<th class="px-3 py-2 whitespace-nowrap">Name</th>`
+- From "tools and features" to "interfaces and tools"
 
 ## Commands
 
