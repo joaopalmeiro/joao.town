@@ -232,6 +232,8 @@
 - https://www.hyperui.dev/components/application/tables
   - `<th class="px-3 py-2 whitespace-nowrap">Name</th>`
 - From "tools and features" to "interfaces and tools"
+- https://github.com/peters/horizon: "(...) GPU-accelerated terminal board that puts all your sessions on an infinite canvas."
+- https://unsloth.ai/docs/new/studio
 
 ## Commands
 
