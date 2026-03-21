@@ -234,6 +234,14 @@
 - From "tools and features" to "interfaces and tools"
 - https://github.com/peters/horizon: "(...) GPU-accelerated terminal board that puts all your sessions on an infinite canvas."
 - https://unsloth.ai/docs/new/studio
+- https://a11y.ing/en/demo/other/pseudo-elements-before-and-after/
+  - https://benmyers.dev/blog/css-can-influence-screenreaders/
+    - "For `:after` pseudo elements, User agents MUST append CSS textual content, without a space, to the textual content of the current node."
+    - `.your-link::after { content: " ~>" / ""; }`
+- https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts
+- WAVE:
+  - https://wave.webaim.org/extension/
+  - https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
 
 ## Commands
 
