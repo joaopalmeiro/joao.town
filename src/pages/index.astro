@@ -1,7 +1,13 @@
 ---
+import { getCollection } from "astro:content";
+
 import Layout from "../layouts/Base.astro";
 
 const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
+
+const data = await getCollection("contribs");
+
+const totalContribs = data.length;
 ---
 
 <Layout title="João Palmeiro" description="My personal website.">
@@ -41,9 +47,9 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
 
       <p>
         A mix of data visualization practitioner, researcher, and software engineer. Experienced in developing
-        interfaces and tools from ideation to production code, including project management. Mainly familiar with the
-        Python ecosystem and web technologies like React. Open to contributing where most needed and using any tech
-        stack.
+        interfaces and tools from ideation to production code, including project management. Used to working on
+        accessibility and with AI/ML. Mainly familiar with the Python ecosystem and web technologies like React. Open to
+        contributing where most needed and using any tech stack.
       </p>
     </article>
 
@@ -212,7 +218,7 @@ const kaomoji = { text: "<( ^.^ )>", label: "Happy Kirby" };
             >LinkedIn (joaopalmeiro)<span aria-hidden="true">,</span>
           </a>
         </dd>
-        <dd><a href="/contribs">open source contributions (joao.town/contribs)</a></dd>
+        <dd><a href="/contribs">{totalContribs} open source contributions (joao.town/contribs)</a></dd>
       </div>
 
       <div class="flex flex-wrap gap-x-1">

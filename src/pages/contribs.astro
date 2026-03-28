@@ -1,30 +1,14 @@
 ---
-import { z } from "astro/zod";
+import { getCollection } from "astro:content";
 
 import Layout from "../layouts/Base.astro";
 
 const kaomoji = { text: "<(^_^<)", label: "Joyful Kirby" };
 
-const repo = encodeURIComponent("joaommpalmeiro/os-contribs");
-const filePath = encodeURIComponent("data/contribs.json");
-const ref = "main";
-const url = `https://gitlab.com/api/v4/projects/${repo}/repository/files/${filePath}/raw?ref=${ref}`;
-
-const Datum = z.object({
-  repo: z.string(),
-  url: z.string().url(),
-  title: z.string(),
-  mr_pr: z.string().url(),
-  merged_at: z.coerce.date(),
-});
-const Data = z.array(Datum);
-
-const response = await fetch(url);
-const rawData = await response.json();
-const data = Data.parse(rawData);
+const data = await getCollection("contribs");
 
 const totalContribs = data.length;
-const totalProjects = new Set(data.map((datum) => datum.repo)).size;
+const totalProjects = new Set(data.map((datum) => datum.data.repo)).size;
 ---
 
 <Layout title="Contribs | João Palmeiro" description="My open source contributions.">
@@ -64,12 +48,12 @@ const totalProjects = new Set(data.map((datum) => datum.repo)).size;
             data.map((datum) => (
               <tr class="border-b-2 border-gray-900">
                 <th scope="row" class="p-2 text-left">
-                  <a href={datum.url}>{datum.repo}</a>
+                  <a href={datum.data.url}>{datum.data.repo}</a>
                 </th>
                 <td class="p-2 text-left">
-                  <a href={datum.mr_pr}>{datum.title}</a>
+                  <a href={datum.data.mr_pr}>{datum.data.title}</a>
                 </td>
-                <td class="p-2 text-left">{datum.merged_at.getUTCFullYear()}</td>
+                <td class="p-2 text-left">{datum.data.merged_at.getUTCFullYear()}</td>
               </tr>
             ))
           }

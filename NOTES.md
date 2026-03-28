@@ -242,6 +242,13 @@
 - WAVE:
   - https://wave.webaim.org/extension/
   - https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
+- https://docs.astro.build/en/guides/content-collections/#build-time-collection-loaders
+  - "To fetch remote data at build time, you can build a custom loader to retrieve your data and update the data store."
+  - https://docs.astro.build/en/guides/content-collections/#custom-build-time-loaders
+  - https://docs.astro.build/en/reference/content-loader-reference/#loader-example
+  - https://docs.astro.build/en/reference/content-loader-reference/#defining-a-loader-as-a-function: `// Must return an array of entries with an id property or an object with IDs as keys and entries as values`
+- From `print:p-24` to `print:p-16` or `print:p-20`
+- Add `text-wrap: balance;` to `<body>` or Profile section?
 
 ## Commands
 
