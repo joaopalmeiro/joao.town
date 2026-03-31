@@ -19,6 +19,7 @@
     "test": "PW_TEST_CONNECT_WS_ENDPOINT=ws://127.0.0.1:3000/ playwright test"
   },
   "dependencies": {
+    "@astrojs/sitemap": "3.7.2",
     "@fontsource/special-elite": "5.2.8",
     "astro": "5.16.11",
     "tailwindcss": "4.2.0"
