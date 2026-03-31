@@ -279,6 +279,10 @@
   - https://www.firecrawl.dev/blog/How-to-Create-an-llms-txt-File-for-Any-Website
   - https://www.mintlify.com/docs/ai/markdown-export
   - https://www.mintlify.com/docs/ai/llmstxt
+  - https://github.com/gxjansen/astro-md-alternate
+    - `<link rel="alternate" type="text/markdown">`
+    - https://www.gilesthomas.com/2025/03/llmstxt
+    - https://dri.es/the-third-audience
 - https://en.wikipedia.org/wiki/Canonical_link_element
   - https://docs.astro.build/en/reference/configuration-reference/#site
 
