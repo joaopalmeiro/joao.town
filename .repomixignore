@@ -1,3 +1,6 @@
+# https://github.com/yamadashy/repomix/blob/c8f24b75550514c8c95d60fd2932a92b142f3bd3/src/config/defaultIgnore.ts
+
 deprecated/
 
+LICENSE
 NOTES.md

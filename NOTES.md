@@ -283,6 +283,11 @@
     - `<link rel="alternate" type="text/markdown">`
     - https://www.gilesthomas.com/2025/03/llmstxt
     - https://dri.es/the-third-audience
+  - https://llmstxt.org/llms.txt: `- [llms.txt proposal](https://llmstxt.org/index.md): The proposal for llms.txt`
+  - https://llmstxthub.com/personal
+    - https://www.hilary-olson.com/llms.txt
+    - https://www.hilary-olson.com/llms-full.txt
+    - https://aureliobenedi.com/llms.txt
 - https://en.wikipedia.org/wiki/Canonical_link_element
   - https://docs.astro.build/en/reference/configuration-reference/#site
 
