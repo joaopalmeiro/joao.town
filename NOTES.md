@@ -266,6 +266,7 @@
     - https://pinhead.ink/
       - Current: `pixel_house_with_chimney` (https://github.com/waysidemapping/pinhead/blob/e12eb3ef54e00f414057f0f39a8c40846077145c/icons/pixel_style/buildings/pixel_house_with_chimney.svg)
       - `at_sign`, `golf_green`, `parking_p`, `pixel_ghost`, `pixel_invader`
+  - https://pawelgrzybek.com/svg-favicons-that-respect-theme-preference/
 
 ## Commands
 
