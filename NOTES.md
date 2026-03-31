@@ -271,6 +271,10 @@
   - https://sonda.dev/bundlers/vite
   - https://sonda.dev/frameworks/astro.html
     - "By default, Astro does not ship any JavaScript to the client, so the default configuration may not generate a report. In this case, you may need to generate a report for the server bundle, as described below."
+- https://github.com/cloudflare/workers-sdk/blob/main/packages/wrangler/CHANGELOG.md
+  - https://docs.astro.build/en/guides/upgrade-to/v6/
+  - https://docs.astro.build/en/guides/integrations-guide/cloudflare/#upgrading-to-v13-and-astro-6
+    - "If you're using Astro as a static site builder, you don't need an adapter."
 
 ## Commands
 
