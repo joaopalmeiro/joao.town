@@ -249,6 +249,23 @@
   - https://docs.astro.build/en/reference/content-loader-reference/#defining-a-loader-as-a-function: `// Must return an array of entries with an id property or an object with IDs as keys and entries as values`
 - From `print:p-24` to `print:p-16` or `print:p-20`
 - Add `text-wrap: balance;` to `<body>` or Profile section?
+- Favicon:
+  - https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
+    - https://en.wikipedia.org/wiki/ICO_(file_format)#ICONDIR_structure
+    - https://evilmartians.com/apple-touch-icon.png
+  - https://caniuse.com/link-icon-svg
+    - https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7
+    - https://realfavicongenerator.net/
+  - https://web.dev/articles/building/an-adaptive-favicon
+    - `<link rel="icon" href="/favicon.ico" sizes="any">`
+    - `<link rel="icon" href="/favicon.svg" type="image/svg+xml">`
+    - https://blog.tomayac.com/2019/09/21/prefers-color-scheme-in-svg-favicons-for-dark-mode-icons/
+      - https://jakearchibald.com/2016/svg-media-queries/
+  - https://favicon.io/favicon-checker/
+  - https://github.com/waysidemapping/pinhead
+    - https://pinhead.ink/
+      - Current: `pixel_house_with_chimney` (https://github.com/waysidemapping/pinhead/blob/e12eb3ef54e00f414057f0f39a8c40846077145c/icons/pixel_style/buildings/pixel_house_with_chimney.svg)
+      - `at_sign`, `golf_green`, `parking_p`, `pixel_ghost`, `pixel_invader`
 
 ## Commands
 
