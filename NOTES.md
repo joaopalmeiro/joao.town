@@ -290,6 +290,11 @@
     - https://aureliobenedi.com/llms.txt
 - https://en.wikipedia.org/wiki/Canonical_link_element
   - https://docs.astro.build/en/reference/configuration-reference/#site
+- https://developers.cloudflare.com/pages/configuration/headers/
+- https://developers.cloudflare.com/workers/static-assets/headers/
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Type
+  - `Content-Type: text/html; charset=utf-8`
+  - https://developers.cloudflare.com/pages/configuration/headers/index.md: `text/markdown; charset=utf-8`
 
 ## Commands
 

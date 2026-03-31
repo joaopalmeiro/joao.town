@@ -1,0 +1,4 @@
+# https://developers.cloudflare.com/workers/static-assets/headers/#custom-headers
+
+/*.md
+  Content-Type: text/markdown; charset=utf-8
