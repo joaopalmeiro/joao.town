@@ -4,6 +4,8 @@ import "@fontsource/special-elite";
 import "../styles/global.css";
 
 const { title, description } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <html lang="en">
@@ -22,6 +24,7 @@ const { title, description } = Astro.props;
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
+    <link rel="canonical" href={canonicalURL} />
     <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
 

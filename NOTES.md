@@ -275,6 +275,12 @@
   - https://docs.astro.build/en/guides/upgrade-to/v6/
   - https://docs.astro.build/en/guides/integrations-guide/cloudflare/#upgrading-to-v13-and-astro-6
     - "If you're using Astro as a static site builder, you don't need an adapter."
+- https://llmstxt.org/
+  - https://www.firecrawl.dev/blog/How-to-Create-an-llms-txt-File-for-Any-Website
+  - https://www.mintlify.com/docs/ai/markdown-export
+  - https://www.mintlify.com/docs/ai/llmstxt
+- https://en.wikipedia.org/wiki/Canonical_link_element
+  - https://docs.astro.build/en/reference/configuration-reference/#site
 
 ## Commands
 
