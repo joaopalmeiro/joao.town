@@ -2,6 +2,10 @@
 
 My [personal website](https://joao.town/).
 
+- [AccessMonitor](https://accessmonitor.acessibilidade.gov.pt/):
+  - [index](https://accessmonitor.acessibilidade.gov.pt/results/https%3A%2F%2Fjoao.town%2F)
+  - [contribs](https://accessmonitor.acessibilidade.gov.pt/results/https%3A%2F%2Fjoao.town%2Fcontribs%2F)
+
 ## Development
 
 Install [fnm](https://github.com/Schniz/fnm) and [Rancher Desktop](https://docs.rancherdesktop.io/) (if necessary).
