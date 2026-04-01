@@ -53,3 +53,4 @@ A mix of data visualization practitioner, researcher, and software engineer. Exp
   - [GitLab](https://gitlab.com/joaommpalmeiro)
   - [Codeberg](https://codeberg.org/joaopalmeiro)
   - [Hugging Face](https://huggingface.co/joaompalmeiro)
+  - [Mastodon](https://ciberlandia.pt/@joaopalmeiro)
