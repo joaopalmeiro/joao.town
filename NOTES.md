@@ -301,6 +301,12 @@
 - https://www.novajs.dev/react-hook-download
   - https://github.com/novajslabs/nova.js
 - https://infrequently.org/links/#tools
+- https://wesbos.com/uses
+  - https://github.com/wesbos/awesome-uses
+  - https://uses.tech/
+- https://www.railly.dev/uses
+  - https://github.com/Railly/one-hunter-vscode
+  - https://www.tryelements.dev/: "Elements gives you production-ready auth, payments, AI and more... built for Next.js, TypeScript, and the agentic era."
 
 ## Commands
 

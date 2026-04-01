@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Base.astro";
+
+const kaomoji = { text: "<( -'.'- )>", label: "Staring Kirby" };
+---
+
+<Layout title="Uses | João Palmeiro" description="Hardware and software I use daily.">
+  <header>
+    <div class="flex justify-between">
+      <h1>
+        <span aria-hidden="true">~ </span>Uses
+      </h1>
+      <span role="img" aria-label={kaomoji.label}>{kaomoji.text}</span>
+    </div>
+  </header>
+
+  <main class="flex flex-col gap-8">
+    <article>
+      <h2><span aria-hidden="true">~~ </span>Hardware</h2>
+
+      <dl>
+        <div class="flex gap-x-1">
+          <dt>Laptop:</dt>
+          <dd>MacBook Air (M2, 2022)</dd>
+        </div>
+
+        <div class="flex gap-x-1">
+          <dt>Headphones:</dt>
+          <dd>Sony ULT WEAR</dd>
+        </div>
+      </dl>
+    </article>
+
+    <article>
+      <h2><span aria-hidden="true">~~ </span>Software</h2>
+
+      <dl>
+        <div class="flex gap-x-1">
+          <dt>Code editor:</dt>
+          <dd>Visual Studio Code</dd>
+        </div>
+
+        <div class="flex gap-x-1">
+          <dt>Terminal:</dt>
+          <dd>Ghostty</dd>
+        </div>
+
+        <div class="flex gap-x-1">
+          <dt>Git client:</dt>
+          <dd>GitHub Desktop</dd>
+        </div>
+
+        <div class="flex gap-x-1">
+          <dt>Window manager:</dt>
+          <dd>Rectangle</dd>
+        </div>
+      </dl>
+    </article>
+  </main>
+</Layout>
