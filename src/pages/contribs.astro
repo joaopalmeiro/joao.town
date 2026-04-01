@@ -48,10 +48,20 @@ const totalProjects = new Set(data.map((datum) => datum.data.repo)).size;
             data.map((datum) => (
               <tr class="border-b-2 border-gray-900">
                 <th scope="row" class="p-2 text-left">
-                  <a href={datum.data.url}>{datum.data.repo}</a>
+                  <a
+                    href={datum.data.url}
+                    class="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+                  >
+                    {datum.data.repo}
+                  </a>
                 </th>
                 <td class="p-2 text-left">
-                  <a href={datum.data.mr_pr}>{datum.data.title}</a>
+                  <a
+                    href={datum.data.mr_pr}
+                    class="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
+                  >
+                    {datum.data.title}
+                  </a>
                 </td>
                 <td class="p-2 text-left">{datum.data.merged_at.getUTCFullYear()}</td>
               </tr>

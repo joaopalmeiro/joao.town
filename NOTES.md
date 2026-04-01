@@ -307,6 +307,7 @@
 - https://www.railly.dev/uses
   - https://github.com/Railly/one-hunter-vscode
   - https://www.tryelements.dev/: "Elements gives you production-ready auth, payments, AI and more... built for Next.js, TypeScript, and the agentic era."
+- `<a href="https://arxiv.org/abs/2510.06071" class="inline-block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500">` or `class="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"`
 
 ## Commands
 
