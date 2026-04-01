@@ -300,6 +300,7 @@
   - https://a11y-guidelines.orange.com/en/articles/accessible-table/: `<caption class="visually-hidden position-relative">Summary by level</caption>`
 - https://www.novajs.dev/react-hook-download
   - https://github.com/novajslabs/nova.js
+- https://infrequently.org/links/#tools
 
 ## Commands
 

@@ -2,10 +2,6 @@
 
 My [personal website](https://joao.town/).
 
-- [AccessMonitor](https://accessmonitor.acessibilidade.gov.pt/):
-  - [index](https://accessmonitor.acessibilidade.gov.pt/results/https%3A%2F%2Fjoao.town%2F)
-  - [contribs](https://accessmonitor.acessibilidade.gov.pt/results/https%3A%2F%2Fjoao.town%2Fcontribs%2F)
-
 ## Development
 
 Install [fnm](https://github.com/Schniz/fnm) and [Rancher Desktop](https://docs.rancherdesktop.io/) (if necessary).
@@ -33,6 +29,13 @@ docker run -p 3000:3000 --rm --init -it --workdir /home/pwuser --user pwuser mcr
 ```bash
 npm run test
 ```
+
+### Tools
+
+- [AccessMonitor](https://accessmonitor.acessibilidade.gov.pt/):
+  - [index](https://accessmonitor.acessibilidade.gov.pt/results/https%3A%2F%2Fjoao.town%2F)
+  - [contribs](https://accessmonitor.acessibilidade.gov.pt/results/https%3A%2F%2Fjoao.town%2Fcontribs%2F)
+- [WebPageTest](https://www.catchpoint.com/webpagetest)
 
 ## Deployment
 
