@@ -446,3 +446,9 @@ const id = `OS_${shuffle("JOÃOPALMEIRO")}_${new Date().toISOString().slice(0, 1
   </table>
 </div>
 ```
+
+```html
+<a href="https://arxiv.org/abs/2204.14025" class="after:content-[attr(data-after)]" data-after=" ~>"
+  >Data+Shift: Supporting visual investigation of data distribution shifts by data scientists
+</a>
+```
