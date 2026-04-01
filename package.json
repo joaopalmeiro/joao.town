@@ -30,6 +30,7 @@
     "@playwright/test": "1.57.0",
     "@tailwindcss/vite": "4.2.0",
     "@types/node": "24.12.0",
+    "mdbox": "0.1.1",
     "npm-run-all2": "8.0.4",
     "prettier": "3.8.1",
     "prettier-plugin-astro": "0.14.1",
