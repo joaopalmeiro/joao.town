@@ -1,4 +1,16 @@
+import { readFile, writeFile } from "node:fs/promises";
+import { join } from "node:path";
+
 import { Data } from "../src/models.ts";
+
+async function updateContribs(count: number): Promise<void> {
+  const file = join(import.meta.dirname, "..", "public", "index.md");
+  const content = await readFile(file, "utf-8");
+
+  const updated = content.replace(/\[\d+ open source contributions\]/, `[${count} open source contributions]`);
+
+  await writeFile(file, updated, "utf-8");
+}
 
 async function main(): Promise<void> {
   const repo = encodeURIComponent("joaommpalmeiro/os-contribs");
@@ -11,7 +23,7 @@ async function main(): Promise<void> {
   const data = Data.parse(rawData);
 
   // TODO
-  console.log(data);
+  await updateContribs(data.length);
 }
 
 main();
