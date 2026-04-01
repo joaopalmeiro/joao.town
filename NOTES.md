@@ -298,6 +298,8 @@
 - No table caption:
   - https://lists.w3.org/Archives/Public/w3c-wai-ig/2019AprJun/0010.html
   - https://a11y-guidelines.orange.com/en/articles/accessible-table/: `<caption class="visually-hidden position-relative">Summary by level</caption>`
+- https://www.novajs.dev/react-hook-download
+  - https://github.com/novajslabs/nova.js
 
 ## Commands
 
