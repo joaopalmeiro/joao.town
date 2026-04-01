@@ -1,13 +1,7 @@
 import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 
-const Datum = z.object({
-  repo: z.string(),
-  url: z.string().url(),
-  title: z.string(),
-  mr_pr: z.string().url(),
-  merged_at: z.coerce.date(),
-});
+import { Datum } from "./models";
 
 const contribs = defineCollection({
   loader: async () => {
