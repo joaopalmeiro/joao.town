@@ -9,6 +9,9 @@
 
 - Code editor: Visual Studio Code
 - Git client: GitHub Desktop
+- Offline navigation: Organic Maps
+- Online navigation: Google Maps
+- Podcast player: Pocket Casts
 - Search engine: Kagi
 - Terminal: Ghostty
 - Translator and proofreader: Kagi Translate
