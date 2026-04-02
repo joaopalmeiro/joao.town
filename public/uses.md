@@ -2,12 +2,14 @@
 
 ## Hardware
 
-- Laptop: MacBook Air (M2, 2022)
 - Headphones: Sony ULT WEAR
+- Laptop: MacBook Air (M2, 2022)
 
 ## Software
 
 - Code editor: Visual Studio Code
-- Terminal: Ghostty
 - Git client: GitHub Desktop
+- Search engine: Kagi
+- Terminal: Ghostty
+- Translator and proofreader: Kagi Translate
 - Window manager: Rectangle

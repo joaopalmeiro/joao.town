@@ -311,6 +311,10 @@
 - https://docs.joinmastodon.org/user/profile/#verification
 - https://github.com/unjs/mdbox
   - https://www.npmjs.com/package/md4w
+- https://github.com/github/dmca
+- https://www.generativefonts.xyz/fonts/
+  - https://github.com/NaN-xyz/Glyph-Filters
+- https://sentry.io/cookbook/monitor-opencode-with-sentry/
 
 ## Commands
 
