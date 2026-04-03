@@ -315,6 +315,8 @@
 - https://www.generativefonts.xyz/fonts/
   - https://github.com/NaN-xyz/Glyph-Filters
 - https://sentry.io/cookbook/monitor-opencode-with-sentry/
+- https://jaredcunha.com/ai-usage
+- "The outcome is sufficient and satisfactory."
 
 ## Commands
 
