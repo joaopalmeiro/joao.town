@@ -319,6 +319,10 @@
 - "The outcome is sufficient and satisfactory."
 - https://ogp.me/
   - https://ogp.me/#no_vertical
+- https://yossarian.net/til/post/backlinking-to-fediverse-accounts-with-meta-tags/
+  - https://rknight.me/blog/setting-up-mastodon-author-tags/
+  - https://rknight.me/blog/highlighting-journalism-with-the-fediverse-creator-tag/
+  - https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
 
 ## Commands
 
