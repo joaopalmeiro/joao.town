@@ -40,7 +40,10 @@ npm run test
     - [index](https://accessmonitor.acessibilidade.gov.pt/results/https%3A%2F%2Fjoao.town%2F)
     - [contribs](https://accessmonitor.acessibilidade.gov.pt/results/https%3A%2F%2Fjoao.town%2Fcontribs%2F)
     - [uses](https://accessmonitor.acessibilidade.gov.pt/results/https%3A%2F%2Fjoao.town%2Fuses%2F)
-  - [Cloudflare Radar URL Scanner](https://radar.cloudflare.com/scan/067522b6-da45-431f-af8a-759229f1322a)
+  - [check-site-meta](https://checksitemeta.alfon.dev/)
+    - [index](https://checksitemeta.alfon.dev/?url=https%3A%2F%2Fjoao.town%2F)
+  - [Cloudflare Radar URL Scanner](https://radar.cloudflare.com/scan):
+    - [index](https://radar.cloudflare.com/scan/067522b6-da45-431f-af8a-759229f1322a)
   - [WebPageTest](https://www.catchpoint.com/webpagetest)
 
 ## Deployment
