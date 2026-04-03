@@ -48,6 +48,7 @@ npm run test
     - [index](https://www.linkedin.com/post-inspector/inspect/https:%2F%2Fjoao.town%2F)
   - [OpenGraph.xyz](https://www.opengraph.xyz/):
     - [index](https://www.opengraph.xyz/url/https%3A%2F%2Fjoao.town%2F)
+    - [contribs](https://www.opengraph.xyz/url/https%3A%2F%2Fjoao.town%2Fcontribs)
   - [WebPageTest](https://www.catchpoint.com/webpagetest)
 
 ## Deployment

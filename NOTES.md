@@ -317,6 +317,8 @@
 - https://sentry.io/cookbook/monitor-opencode-with-sentry/
 - https://jaredcunha.com/ai-usage
 - "The outcome is sufficient and satisfactory."
+- https://ogp.me/
+  - https://ogp.me/#no_vertical
 
 ## Commands
 

@@ -22,6 +22,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta name="author" content="João Palmeiro" />
     <meta name="description" content={description} />
 
+    <meta property="og:title" content={title} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:description" content={description} />
+    <meta property="og:locale" content="en_US" />
+
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
     <link rel="canonical" href={canonicalURL} />
