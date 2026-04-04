@@ -370,6 +370,7 @@
   - https://knip.dev/overview/getting-started
   - https://knip.dev/reference/plugins/astro
   - https://knip.dev/reference/configuration#ignore
+  - `"project": ["scripts/*.ts", "src/**/*.{ts,astro,css}", "tests/*.ts", "*.{mjs,ts}"]`
 
 ## Commands
 
