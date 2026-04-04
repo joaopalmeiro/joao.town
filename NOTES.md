@@ -366,6 +366,10 @@
   - [MD033 Inline HTML false positive](https://github.com/rvben/rumdl/issues/90) issue
 - https://www.stefanjudis.com/today-i-learned/node-js-includes-a-native-glob-utility/
   - `const files = await Array.fromAsync(glob('**/*.txt'));`
+- Knip:
+  - https://knip.dev/overview/getting-started
+  - https://knip.dev/reference/plugins/astro
+  - https://knip.dev/reference/configuration#ignore
 
 ## Commands
 
