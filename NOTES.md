@@ -353,6 +353,11 @@
 - https://roe.dev/uses
   - https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-icon-vsc
   - https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme
+- https://txt-llms.com/llms-full-txt
+  - https://github.com/vercel-labs/academy-skills/blob/059204ccce05d68ae0d0d3c5213bc38c8d96497e/skills/agent-friendly-apis/references/llms-txt-spec.md
+  - https://nextjs.org/docs/llms.txt
+  - https://nextjs.org/docs/llms-full.txt
+- https://buildwithfern.com/learn/docs/llms.txt
 
 ## Commands
 
