@@ -358,6 +358,11 @@
   - https://nextjs.org/docs/llms.txt
   - https://nextjs.org/docs/llms-full.txt
 - https://buildwithfern.com/learn/docs/llms.txt
+- https://blog.orhun.dev/800-rust-projects/
+  - https://github.com/rvben/rumdl?tab=readme-ov-file#using-npm
+  - https://rumdl.dev/rules/
+  - https://rumdl.dev/usage/cli/#check-paths
+  - [MD033 Inline HTML false positive](https://github.com/rvben/rumdl/issues/90) issue
 
 ## Commands
 

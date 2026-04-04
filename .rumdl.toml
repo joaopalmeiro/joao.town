@@ -1,0 +1,6 @@
+[global]
+enable=["ALL"]
+disable = ["MD013", "MD034", "MD063"]
+exclude = ["deprecated"]
+flavor = "standard"
+respect-gitignore = true

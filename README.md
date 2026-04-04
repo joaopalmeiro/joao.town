@@ -23,6 +23,10 @@ npm run format
 ```
 
 ```bash
+npm run lint
+```
+
+```bash
 docker run -p 3000:3000 --rm --init -it --workdir /home/pwuser --user pwuser mcr.microsoft.com/playwright:v1.57.0-noble /bin/sh -c "npx -y playwright@1.57.0 run-server --port 3000 --host 0.0.0.0"
 ```
 

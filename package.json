@@ -18,6 +18,7 @@
     "deploy": "wrangler deploy",
     "dev": "astro dev",
     "format": "prettier . --write",
+    "lint": "rumdl check .",
     "preview": "astro preview --host --allowed-hosts host.rancher-desktop.internal",
     "test": "PW_TEST_CONNECT_WS_ENDPOINT=ws://127.0.0.1:3000/ playwright test"
   },
@@ -37,6 +38,7 @@
     "prettier": "3.8.1",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-tailwindcss": "0.7.2",
+    "rumdl": "0.1.62",
     "wrangler": "4.77.0"
   }
 }
