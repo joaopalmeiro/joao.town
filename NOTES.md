@@ -288,6 +288,9 @@
     - https://www.hilary-olson.com/llms.txt
     - https://www.hilary-olson.com/llms-full.txt
     - https://aureliobenedi.com/llms.txt
+  - https://roe.dev/llms.txt:
+    - `## Optional - [Full content](https://roe.dev/llms-full.txt): Complete bio, blog index, and talks in a single document`
+  - https://www.fastht.ml/docs/llms.txt
 - https://en.wikipedia.org/wiki/Canonical_link_element
   - https://docs.astro.build/en/reference/configuration-reference/#site
 - https://developers.cloudflare.com/pages/configuration/headers/
@@ -315,7 +318,14 @@
 - https://www.generativefonts.xyz/fonts/
   - https://github.com/NaN-xyz/Glyph-Filters
 - https://sentry.io/cookbook/monitor-opencode-with-sentry/
-- https://jaredcunha.com/ai-usage
+- /ai:
+  - https://jaredcunha.com/ai-usage
+  - https://roe.dev/ai
+  - https://www.bydamo.la/p/ai-manifesto
+  - https://www.damolamorenikeji.com/ai/
+  - https://slashai.page/
+  - https://sive.rs/ai
+  - https://macarthur.me/ai/
 - "The outcome is sufficient and satisfactory."
 - https://ogp.me/
   - https://ogp.me/#no_vertical
@@ -339,6 +349,9 @@
 - https://boneyard.vercel.app/overview
   - https://github.com/0xGF/boneyard
   - "Auto generated skeleton loading framework"
+- https://roe.dev/uses
+  - https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-icon-vsc
+  - https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme
 
 ## Commands
 

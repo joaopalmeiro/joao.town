@@ -14,5 +14,6 @@
 - Podcast player: Pocket Casts
 - Search engine: Kagi
 - Terminal: Ghostty
+- Terminal prompt: Starship
 - Translator and proofreader: Kagi Translate
 - Window manager: Rectangle
