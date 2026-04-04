@@ -14,7 +14,7 @@
     - https://zod.dev/basics
     - https://zod.dev/api
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/address
-  - "The <address> element can only be used to represent the contact information for its nearest <article> or <body> element ancestor."
+  - "The `<address>` element can only be used to represent the contact information for its nearest `<article>` or `<body>` element ancestor."
   - https://cauldron.dequelabs.com/components/Address: "A utility component to identify contact information or a physical address."
 - https://github.com/readme/guides/first-oss-contribution: "open source contribution"
 - https://docs.gitlab.com/api/repository_files/
