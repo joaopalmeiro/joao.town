@@ -323,6 +323,22 @@
   - https://rknight.me/blog/setting-up-mastodon-author-tags/
   - https://rknight.me/blog/highlighting-journalism-with-the-fediverse-creator-tag/
   - https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
+- https://air.dev/
+  - "JetBrains Air is the Agentic Development Environment where Codex, Claude Agent, Gemini CLI, and Junie execute independent task loops without interfering with each other."
+  - https://junie.jetbrains.com/
+  - https://www.jetbrains.com/junie/
+  - https://www.jetbrains.com/ai-ides/buy/?section=personal&billing=monthly
+  - https://www.jetbrains.com/lp/mono/
+- https://github.com/datalayer/jupyter-mcp-server
+- https://piebald.ai/
+- https://sunflowersuite.eu/: "(...) fully open-source, EU-hosted productivity suite (...)"
+  - https://anytype.io/
+  - https://github.com/anyproto/anytype-ts
+  - https://download.anytype.io/
+- https://sepiasearch.org/: "A search engine of PeerTube videos, channels and playlists"
+- https://boneyard.vercel.app/overview
+  - https://github.com/0xGF/boneyard
+  - "Auto generated skeleton loading framework"
 
 ## Commands
 
