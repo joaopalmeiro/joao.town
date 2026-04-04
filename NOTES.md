@@ -292,6 +292,7 @@
     - `## Optional - [Full content](https://roe.dev/llms-full.txt): Complete bio, blog index, and talks in a single document`
   - https://www.fastht.ml/docs/llms.txt
   - https://www.mintlify.com/docs/llms.txt
+  - https://www.mintlify.com/docs/llms-full.txt
 - https://en.wikipedia.org/wiki/Canonical_link_element
   - https://docs.astro.build/en/reference/configuration-reference/#site
 - https://developers.cloudflare.com/pages/configuration/headers/
@@ -363,6 +364,8 @@
   - https://rumdl.dev/rules/
   - https://rumdl.dev/usage/cli/#check-paths
   - [MD033 Inline HTML false positive](https://github.com/rvben/rumdl/issues/90) issue
+- https://www.stefanjudis.com/today-i-learned/node-js-includes-a-native-glob-utility/
+  - `const files = await Array.fromAsync(glob('**/*.txt'));`
 
 ## Commands
 

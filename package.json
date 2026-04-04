@@ -11,7 +11,8 @@
   },
   "type": "module",
   "scripts": {
-    "build": "run-s build:md build:static",
+    "build": "run-s build:md build:llms build:static",
+    "build:llms": "node scripts/genLlmsFull.ts",
     "build:md": "node scripts/genMd.ts",
     "build:static": "astro build",
     "check:meta": "check-site-meta 4321",
