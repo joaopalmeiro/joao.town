@@ -291,6 +291,7 @@
   - https://roe.dev/llms.txt:
     - `## Optional - [Full content](https://roe.dev/llms-full.txt): Complete bio, blog index, and talks in a single document`
   - https://www.fastht.ml/docs/llms.txt
+  - https://www.mintlify.com/docs/llms.txt
 - https://en.wikipedia.org/wiki/Canonical_link_element
   - https://docs.astro.build/en/reference/configuration-reference/#site
 - https://developers.cloudflare.com/pages/configuration/headers/

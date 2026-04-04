@@ -4,4 +4,7 @@
 
 ## Pages
 
-- []():
+- [AI](https://joao.town/ai.md): How I use AI.
+- [Homepage](https://joao.town/index.md): Profile, experience, and links to find out more.
+- [Open source contributions](https://joao.town/contribs.md): My open source contributions.
+- [Uses](https://joao.town/uses.md): Hardware and software I use daily.
