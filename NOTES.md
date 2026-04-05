@@ -328,6 +328,7 @@
   - https://slashai.page/
   - https://sive.rs/ai
   - https://macarthur.me/ai/
+  - https://adrianroselli.com/2025/12/my-use-of-ai-on-this-site.html
 - "The outcome is sufficient and satisfactory."
 - https://ogp.me/
   - https://ogp.me/#no_vertical
