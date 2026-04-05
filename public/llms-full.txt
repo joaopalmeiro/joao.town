@@ -211,6 +211,13 @@ A mix of data visualization practitioner, researcher, and software engineer. Exp
 
 ---
 
+# Links
+
+- [PSNProfiles](https://psnprofiles.com/palmeirox)
+- [TMDB](https://www.themoviedb.org/u/joaopalmeiro)
+
+---
+
 # Uses
 
 ## Hardware
