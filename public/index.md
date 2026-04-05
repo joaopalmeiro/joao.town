@@ -47,7 +47,7 @@ A mix of data visualization practitioner, researcher, and software engineer. Exp
 
 - Full CV:
   - [LinkedIn](https://www.linkedin.com/in/joaopalmeiro/)
-  - [117 open source contributions](https://joao.town/contribs/)
+  - [124 open source contributions](https://joao.town/contribs/)
 - Projects:
   - [GitHub](https://github.com/joaopalmeiro)
   - [GitLab](https://gitlab.com/joaommpalmeiro)

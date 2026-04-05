@@ -375,6 +375,8 @@
 - https://polypane.app/blog/forced-colors-explained-a-practical-guide/
   - https://adrianroselli.com/2021/02/whcm-and-system-colors.html
   - https://blogs.windows.com/msedgedev/2020/09/17/styling-for-windows-high-contrast-with-new-standards-for-forced-colors/
+- https://playwright.dev/docs/accessibility-testing
+  - https://www.npmjs.com/package/@axe-core/playwright
 
 ## Commands
 
