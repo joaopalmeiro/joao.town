@@ -372,6 +372,9 @@
   - https://knip.dev/reference/plugins/astro
   - https://knip.dev/reference/configuration#ignore
   - `"project": ["scripts/*.ts", "src/**/*.{ts,astro,css}", "tests/*.ts", "*.{mjs,ts}"]`
+- https://polypane.app/blog/forced-colors-explained-a-practical-guide/
+  - https://adrianroselli.com/2021/02/whcm-and-system-colors.html
+  - https://blogs.windows.com/msedgedev/2020/09/17/styling-for-windows-high-contrast-with-new-standards-for-forced-colors/
 
 ## Commands
 
