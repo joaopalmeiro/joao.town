@@ -389,6 +389,20 @@
   - https://docs.vale.sh/keys/stylespath
   - https://docs.vale.sh/keys/packages
   - https://knip.dev/reference/configuration#ignorebinaries
+- https://github.com/GoogleChrome/lighthouse
+  - https://www.npmjs.com/package/lighthouse
+  - https://github.com/catchpoint/WebPageTest
+  - `--preset=desktop`
+  - https://developer.chrome.com/docs/performance/insights/cls-culprit
+    - https://developer.chrome.com/blog/font-fallbacks
+      - "Arial is the recommended fallback font for sans-serif fonts and Times New Roman is the recommended fallback font for serif fonts. However, neither of these fonts is available on Android (Roboto is the only system font on Android)."
+    - https://github.com/khempenius/font-fallbacks-dataset
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face#description: "If the `local()` function is provided, specifying a font name to look for on the user's device, and if the user agent finds a match, that local font is used."
+    - https://github.com/unjs/fontaine
+    - https://github.com/unjs/fontaine/tree/3c07e6ee4542c9ccde2be891b5fe06a4a1de0998/packages/fontless
+    - https://github.com/seek-oss/capsize
+    - https://dev.to/askrodney/astro-font-fallbacks-with-capsize-reduce-cls-197b
+    - https://eatmon.co/blog/using-fontaine-with-astro
 
 ## Commands
 

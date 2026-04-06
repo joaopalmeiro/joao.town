@@ -36,6 +36,18 @@ npm run test
 
 ### Tools
 
+```bash
+npx lighthouse https://joao.town/ --preset desktop --output html --output-path ./report.html
+```
+
+```bash
+npx lighthouse https://joao.town/ --output html --output-path ./report.html
+```
+
+```bash
+open report.html
+```
+
 - Browser extensions:
   - [ARC Toolkit](https://www.tpgi.com/arc-platform/arc-toolkit/)
   - [WAVE](https://wave.webaim.org/extension/)
