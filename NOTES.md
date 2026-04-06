@@ -407,6 +407,9 @@
 - https://web.dev/articles/codelab-preload-web-fonts
 - https://chriswilliams.dev/blog/fallback-fonts-in-astro/
   - https://screenspan.net/fallback: "Fallback Font Generator"
+- https://github.com/dequelabs/axe-core/blob/v4.11.1/doc/API.md#axe-core-tags
+  - https://github.com/dequelabs/axe-core/blob/v4.11.1/doc/rule-descriptions.md#best-practices-rules
+  - https://github.com/dequelabs/axe-core/blob/v4.11.1/doc/rule-descriptions.md#experimental-rules
 
 ## Commands
 

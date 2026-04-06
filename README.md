@@ -49,6 +49,7 @@ open report.html
 ```
 
 - Browser extensions:
+  - [Accessibility Insights](https://accessibilityinsights.io/)
   - [ARC Toolkit](https://www.tpgi.com/arc-platform/arc-toolkit/)
   - [WAVE](https://wave.webaim.org/extension/)
 - Websites:
