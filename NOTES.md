@@ -129,6 +129,7 @@
 - Using custom fonts:
   - https://docs.astro.build/en/guides/fonts/#using-fontsource
   - https://fontsource.org/docs/getting-started/preload
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/preload#cors-enabled_fetches
   - https://fontsource.org/fonts/special-elite/install
   - https://web.dev/articles/preload-critical-assets#how_to_implement_relpreload
   - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel/preload
@@ -403,6 +404,9 @@
     - https://github.com/seek-oss/capsize
     - https://dev.to/askrodney/astro-font-fallbacks-with-capsize-reduce-cls-197b
     - https://eatmon.co/blog/using-fontaine-with-astro
+- https://web.dev/articles/codelab-preload-web-fonts
+- https://chriswilliams.dev/blog/fallback-fonts-in-astro/
+  - https://screenspan.net/fallback: "Fallback Font Generator"
 
 ## Commands
 
