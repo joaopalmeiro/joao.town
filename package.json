@@ -19,9 +19,11 @@
     "deploy": "wrangler deploy",
     "dev": "astro dev",
     "format": "prettier . --write",
-    "lint": "run-s lint:knip lint:md",
+    "postinstall": "vale sync",
+    "lint": "run-s --continue-on-error lint:knip lint:md lint:text",
     "lint:knip": "knip",
     "lint:md": "rumdl check .",
+    "lint:text": "vale README.md public/",
     "preview": "astro preview --host --allowed-hosts host.rancher-desktop.internal",
     "test": "PW_TEST_CONNECT_WS_ENDPOINT=ws://127.0.0.1:3000/ playwright test"
   },

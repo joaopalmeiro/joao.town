@@ -377,6 +377,18 @@
   - https://blogs.windows.com/msedgedev/2020/09/17/styling-for-windows-high-contrast-with-new-standards-for-forced-colors/
 - https://playwright.dev/docs/accessibility-testing
   - https://www.npmjs.com/package/@axe-core/playwright
+- Vale:
+  - https://docs.vale.sh/topics/.vale.ini
+  - https://vale.sh/generator
+  - https://docs.vale.sh/
+  - https://docs.vale.sh/topics/cli
+  - https://vale.sh/explorer
+  - https://docs.vale.sh/topics/styles
+  - https://github.com/fern-api/fern/blob/647b4e782e8d1059ed62c85409d65f13870e3f70/.vale.ini
+  - https://github.com/fern-api/docs/blob/c8c3602f5939dc681adbdf915f459bf5d8c4a943/.vale.ini
+  - https://docs.vale.sh/keys/stylespath
+  - https://docs.vale.sh/keys/packages
+  - https://knip.dev/reference/configuration#ignorebinaries
 
 ## Commands
 
@@ -412,6 +424,18 @@ docker context show
 
 ```bash
 docker pull mcr.microsoft.com/playwright:v1.57.0-noble
+```
+
+```bash
+vale sync
+```
+
+```bash
+rm -rf .vale && vale sync
+```
+
+```bash
+vale .
 ```
 
 ## Snippets

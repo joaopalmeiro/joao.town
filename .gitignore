@@ -1,5 +1,6 @@
 .astro/
 .rumdl_cache/
+.vale/
 .wrangler/
 dist/
 node_modules/

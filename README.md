@@ -4,7 +4,7 @@ My [personal website](https://joao.town/).
 
 ## Development
 
-Install [fnm](https://github.com/Schniz/fnm) and [Rancher Desktop](https://docs.rancherdesktop.io/) (if necessary).
+Install [fnm](https://github.com/Schniz/fnm), [Rancher Desktop](https://docs.rancherdesktop.io/), and [Vale](https://docs.vale.sh/topics/installation) (if necessary).
 
 ```bash
 fnm install && fnm use && node --version && npm --version
