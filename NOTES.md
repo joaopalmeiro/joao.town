@@ -390,6 +390,8 @@
   - https://docs.vale.sh/keys/stylespath
   - https://docs.vale.sh/keys/packages
   - https://knip.dev/reference/configuration#ignorebinaries
+  - https://github.com/PostHog/posthog.com/blob/5fc31a5ae2ee0bb4814ca5005abf16b52334932f/.vale.ini
+  - https://github.com/PostHog/posthog.com/blob/5fc31a5ae2ee0bb4814ca5005abf16b52334932f/.vale/styles/PostHogBase/Inclusivity.yml
 - https://github.com/GoogleChrome/lighthouse
   - https://www.npmjs.com/package/lighthouse
   - https://github.com/catchpoint/WebPageTest
