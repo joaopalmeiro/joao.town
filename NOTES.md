@@ -361,6 +361,8 @@
   - https://nextjs.org/docs/llms.txt
   - https://nextjs.org/docs/llms-full.txt
 - https://buildwithfern.com/learn/docs/llms.txt
+- https://gofastmcp.com/llms.txt
+- https://gofastmcp.com/llms-full.txt
 - https://blog.orhun.dev/800-rust-projects/
   - https://github.com/rvben/rumdl?tab=readme-ov-file#using-npm
   - https://rumdl.dev/rules/
