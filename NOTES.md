@@ -442,6 +442,11 @@
 - https://marketplace.visualstudio.com/items?itemName=mutantdino.resourcemonitor
 - https://github.com/tak-dcxi/kiso.css/
 - https://tailwindcss.com/docs/rotate
+- https://docs.rancherdesktop.io/references/rdctl-command-reference/: "`rdctl` is a command-line tool, included in Rancher Desktop that enables command-line access to GUI features."
+- If `docker: failed to copy: failed to send write: write /var/lib/docker/containerd/daemon/io.containerd.content.v1.content/ingest/f9fcd1f813500ca8f92039459e4fe08566a6fc614a2483421de83f324477c97a/data: no space left on device` with Rancher Desktop:
+  - Open Rancher Desktop
+  - _Troubleshooting_ > _Factory Reset_
+  - Open Rancher Desktop
 
 ## Commands
 
@@ -478,6 +483,12 @@ docker context show
 ```bash
 docker pull mcr.microsoft.com/playwright:v1.57.0-noble
 ```
+
+```bash
+rdctl shell df -h
+```
+
+### Vale
 
 ```bash
 vale sync
