@@ -414,6 +414,20 @@
 - https://github.com/dequelabs/axe-core/blob/v4.11.1/doc/API.md#axe-core-tags
   - https://github.com/dequelabs/axe-core/blob/v4.11.1/doc/rule-descriptions.md#best-practices-rules
   - https://github.com/dequelabs/axe-core/blob/v4.11.1/doc/rule-descriptions.md#experimental-rules
+- https://en.wikipedia.org/wiki/404
+  - https://en.wikipedia.org/wiki/Peugeot_404
+  - `<title>Page not found | Astro</title>`
+  - `<meta name="description" content="Astro builds fast content sites, powerful web applications, dynamic server APIs, and everything in-between.">`
+  - https://css-tricks.com/404-best-practices/
+  - https://support.google.com/webmasters/thread/147440368/canonical-tag-404-pages?hl=en: "It doesn't matter in the slightest for Google, all content, including headers, are dropped when a 404 status code is seen. So no matter what you'd put in there, google wouldn't process and use it."
+  - `Go to the homepage`
+- https://docs.astro.build/en/basics/astro-pages/#custom-404-error-page
+- https://mass-driver.com/typefaces/md-io/
+- https://www.404s.design/
+- https://www.cult-ui.com/
+  - https://github.com/nolly-studio/cult-ui
+  - https://www.cult-ui.com/docs/components/neumorph-button
+- https://web.dev/blog/viewport-units
 
 ## Commands
 
