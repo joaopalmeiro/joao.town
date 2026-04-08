@@ -437,6 +437,11 @@
   - https://github.com/kane50613/takumi/blob/%40takumi-rs/core%401.0.0-rc.10/example/satori-html/index.ts
   - https://github.com/kane50613/takumi/blob/takumi-js%401.0.0-rc.10/takumi-js/src/render.ts
   - https://takumi.kane.tw/playground
+- https://en.wikipedia.org/wiki/Typewriter:
+  - "Typewritten documents"
+- https://marketplace.visualstudio.com/items?itemName=mutantdino.resourcemonitor
+- https://github.com/tak-dcxi/kiso.css/
+- https://tailwindcss.com/docs/rotate
 
 ## Commands
 
