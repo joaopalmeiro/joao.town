@@ -421,6 +421,8 @@
   - https://css-tricks.com/404-best-practices/
   - https://support.google.com/webmasters/thread/147440368/canonical-tag-404-pages?hl=en: "It doesn't matter in the slightest for Google, all content, including headers, are dropped when a 404 status code is seen. So no matter what you'd put in there, google wouldn't process and use it."
   - `Go to the homepage`
+  - https://docs.astro.build/en/guides/deploy/cloudflare/#404-behavior
+  - https://developers.cloudflare.com/workers/static-assets/#routing-behavior
 - https://docs.astro.build/en/basics/astro-pages/#custom-404-error-page
 - https://mass-driver.com/typefaces/md-io/
 - https://www.404s.design/
