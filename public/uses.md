@@ -16,4 +16,5 @@
 - Terminal: Ghostty
 - Terminal prompt: Starship
 - Translator and proofreader: Kagi Translate
+- VPN: Proton VPN
 - Window manager: Rectangle
