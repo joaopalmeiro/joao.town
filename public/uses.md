@@ -9,9 +9,13 @@
 
 - Code editor: Visual Studio Code
 - Git client: GitHub Desktop
+- Java version manager: SDKMAN!
+- Media player: IINA
+- Node.js version manager: fnm
 - Office suite: LibreOffice
 - Offline navigation: Organic Maps
 - Online navigation: Google Maps
+- PNG optimizer: Oxipng
 - Podcast player: Pocket Casts
 - Search engine: Kagi
 - Terminal: Ghostty
