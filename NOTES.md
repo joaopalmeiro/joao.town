@@ -430,6 +430,13 @@
   - https://github.com/nolly-studio/cult-ui
   - https://www.cult-ui.com/docs/components/neumorph-button
 - https://web.dev/blog/viewport-units
+- https://github.com/kane50613/takumi
+  - https://www.npmjs.com/package/takumi-js
+  - https://www.npmjs.com/package/@takumi-rs/core
+  - https://github.com/kane50613/takumi/tree/master/takumi-napi-core
+  - https://github.com/kane50613/takumi/blob/%40takumi-rs/core%401.0.0-rc.10/example/satori-html/index.ts
+  - https://github.com/kane50613/takumi/blob/takumi-js%401.0.0-rc.10/takumi-js/src/render.ts
+  - https://takumi.kane.tw/playground
 
 ## Commands
 

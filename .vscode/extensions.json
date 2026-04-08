@@ -3,6 +3,7 @@
     "astro-build.astro-vscode",
     "bradlc.vscode-tailwindcss",
     "nhoizey.gremlins",
-    "shardulm94.trailing-spaces"
+    "shardulm94.trailing-spaces",
+    "tobermory.es6-string-html"
   ]
 }
