@@ -1,6 +1,7 @@
 import { z } from "astro/zod";
 
 export const Datum = z.object({
+  id: z.string(),
   repo: z.string(),
   url: z.string().url(),
   title: z.string(),
