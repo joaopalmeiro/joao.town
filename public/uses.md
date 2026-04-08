@@ -9,6 +9,7 @@
 
 - Code editor: Visual Studio Code
 - Git client: GitHub Desktop
+- Office suite: LibreOffice
 - Offline navigation: Organic Maps
 - Online navigation: Google Maps
 - Podcast player: Pocket Casts
