@@ -447,6 +447,7 @@
   - Open Rancher Desktop
   - _Troubleshooting_ > _Factory Reset_
   - Open Rancher Desktop
+- https://www.1password.dev/cli/shell-plugins/cloudflare-workers
 
 ## Commands
 
@@ -468,6 +469,10 @@ pdffonts João\ Palmeiro.pdf
 
 ```bash
 npm install -D "@types/node@$(cat .nvmrc | cut -d . -f 1)"
+```
+
+```bash
+op plugin init wrangler
 ```
 
 ### Rancher Desktop

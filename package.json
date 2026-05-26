@@ -16,7 +16,7 @@
     "build:md": "node scripts/genMd.ts",
     "build:static": "astro build",
     "check:meta": "check-site-meta 4321",
-    "deploy": "wrangler deploy",
+    "deploy": "op plugin run -- wrangler deploy",
     "dev": "astro dev",
     "format": "prettier . --write",
     "postinstall": "vale sync",

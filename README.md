@@ -78,3 +78,11 @@ npm run build
 ```bash
 npm run deploy
 ```
+
+### Get a Cloudflare token
+
+- _Manage account_ > _Account API tokens_ > _Create token_
+- _Permission policies_ > `Developer Services`
+- _Token expiration_ > `30 days`
+- _Client IP address filtering_ > _Enter an IP address or CIDR range..._ > `Use your IP address`...
+- _Review token_
