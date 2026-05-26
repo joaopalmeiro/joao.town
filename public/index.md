@@ -28,6 +28,7 @@ A mix of data visualization practitioner, researcher, and software engineer. Exp
 - Mar 2021 - Jan 2023
 - Public highlights:
   - [Data+Shift: Supporting visual investigation of data distribution shifts by data scientists](https://arxiv.org/abs/2204.14025)
+  - [A case study on implementing screen reader accessibility in dynamic visualizations](https://diglib.eg.org/handle/10.2312/evp20221134)
   - [Analyzing Data Drift: How We Designed Visualizations to Support Feature Investigation](https://medium.com/feedzaitech/analyzing-data-drift-how-we-designed-visualizations-to-support-feature-investigation-e408d4de7e9f)
   - [Styling Altair Charts with the feedzai-altair-theme](https://medium.com/feedzaitech/styling-altair-charts-with-the-feedzai-altair-theme-f3dcd27b3b68)
 
