@@ -1,7 +1,7 @@
 # João Palmeiro
 
 - Pronouns: he/him
-- Location: Lisbon, Portugal (UTC+00:00 or +01:00)
+- Location: Porto, Portugal (UTC+00:00 or +01:00)
 - Contact: joaopalmeiro@proton.me
 
 ## Profile
